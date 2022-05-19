@@ -1,0 +1,62 @@
+Package: nvidia-graphics-drivers-440-server
+Format: 3.0 (quilt)
+Binary: nvidia-driver-440-server, nvidia-kernel-source-440-server, nvidia-dkms-440-server, nvidia-utils-440-server, libnvidia-compute-440-server, nvidia-compute-utils-440-server, nvidia-headless-no-dkms-440-server, nvidia-headless-440-server, nvidia-kernel-common-440-server, libnvidia-gl-440-server, libnvidia-common-440-server, libnvidia-extra-440-server, xserver-xorg-video-nvidia-440-server, libnvidia-cfg1-440-server, libnvidia-ifr1-440-server, libnvidia-fbc1-440-server, libnvidia-decode-440-server, libnvidia-encode-440-server
+Architecture: amd64 i386 all
+Version: 440.95.01-0ubuntu2
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6, quilt, po-debconf, execstack, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libc6, libx11-6
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/440-server
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/multiverse/n/nvidia-graphics-drivers-440-server
+Package-List:
+ libnvidia-cfg1-440-server deb non-free/libs optional arch=amd64
+ libnvidia-common-440-server deb non-free/libs optional arch=all
+ libnvidia-compute-440-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-440-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-440-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-extra-440-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-440-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-440-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-440-server deb non-free/libs optional arch=i386,amd64
+ nvidia-compute-utils-440-server deb non-free/libs optional arch=amd64
+ nvidia-dkms-440-server deb non-free/libs optional arch=amd64
+ nvidia-driver-440-server deb non-free/libs optional arch=amd64
+ nvidia-headless-440-server deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-440-server deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-440-server deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-440-server deb non-free/libs optional arch=amd64
+ nvidia-utils-440-server deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-440-server deb non-free/x11 optional arch=amd64
+Checksums-Sha256:
+ c1cf05118d591df5024175392bf3f536b47db20c34b760fc5a1999d2520172bf 4463 nvidia-graphics-drivers-440-server_440.95.01-0ubuntu2.dsc
+ 8625d3703cb442c5671b4581d9bd74286c98cb849e8c0ed57e393e12abe42c61 143632930 nvidia-graphics-drivers-440-server_440.95.01.orig-amd64.tar.gz
+ 577f1182aa00bc5db45ef941a2780832d0e289c2876589e3ad23acbc226fa360 139 nvidia-graphics-drivers-440-server_440.95.01.orig.tar.gz
+ 417227e793fdbf78595468eb77557953e5bcafdf742f6f8f527fa849af466c5c 52536 nvidia-graphics-drivers-440-server_440.95.01-0ubuntu2.debian.tar.xz
+Autobuild: yes
+
+Package: node-postcss-value-parser
+Format: 3.0 (quilt)
+Binary: node-postcss-value-parser
+Architecture: all
+Version: 4.1.0-3
+Section: multiverse/misc
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tape <!nocheck>
+Testsuite: autopkgtest-pkg-nodejs
+Homepage: https://github.com/TrySound/postcss-value-parser
+Vcs-Browser: https://salsa.debian.org/js-team/node-postcss-value-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-postcss-value-parser.git
+Directory: pool/multiverse/n/node-postcss-value-parser
+Package-List:
+ node-postcss-value-parser deb javascript optional arch=all
+Checksums-Sha256:
+ 638e96bb6fa6f98a73a434db2f81d1ce972a3d178578125135305213b8ae19da 2193 node-postcss-value-parser_4.1.0-3.dsc
+ c525fff33592fb41aa375377d2d66da6ba1b7661ce723175b21462e677cad652 53767 node-postcss-value-parser_4.1.0.orig.tar.gz
+ 9203bf8599db4bf3c17a997b48d302073b204dc2dad08262ea0f6f00b02d5a0b 2668 node-postcss-value-parser_4.1.0-3.debian.tar.xz
+

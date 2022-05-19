@@ -1,0 +1,41 @@
+Package: nvidia-graphics-drivers-510-server
+Format: 3.0 (quilt)
+Binary: nvidia-driver-510-server, nvidia-kernel-source-510-server, nvidia-dkms-510-server, nvidia-utils-510-server, libnvidia-compute-510-server, nvidia-compute-utils-510-server, nvidia-headless-no-dkms-510-server, nvidia-headless-510-server, nvidia-kernel-common-510-server, libnvidia-gl-510-server, libnvidia-common-510-server, libnvidia-extra-510-server, xserver-xorg-video-nvidia-510-server, libnvidia-cfg1-510-server, libnvidia-fbc1-510-server, libnvidia-decode-510-server, libnvidia-encode-510-server
+Architecture: amd64 arm64 i386 all
+Version: 510.47.03-0ubuntu3
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6, quilt, po-debconf, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libnvidia-egl-wayland1, libc6, libx11-6, python3
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/510-server
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-510-server
+Package-List:
+ libnvidia-cfg1-510-server deb non-free/libs optional arch=amd64,arm64
+ libnvidia-common-510-server deb non-free/libs optional arch=all
+ libnvidia-compute-510-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-decode-510-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-encode-510-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-extra-510-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-fbc1-510-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-gl-510-server deb non-free/libs optional arch=i386,amd64,arm64
+ nvidia-compute-utils-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-common-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-510-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-utils-510-server deb non-free/libs optional arch=amd64,arm64
+ xserver-xorg-video-nvidia-510-server deb non-free/x11 optional arch=amd64,arm64
+Checksums-Sha256:
+ b83f79f3a7a8b36c8f54abe12e23ffde78dfe9212f22dd77790d0a10b55be5e7 4851 nvidia-graphics-drivers-510-server_510.47.03-0ubuntu3.dsc
+ 7fc109cc4044d46b6bae26040184f2eac4308227e8e9f559757812a13bf66bc9 328808600 nvidia-graphics-drivers-510-server_510.47.03.orig-amd64.tar.gz
+ 09b01f4175e846158147e589bc3ae7a6cbf7a2bae25791517e77a28dacc429e1 210687485 nvidia-graphics-drivers-510-server_510.47.03.orig-arm64.tar.gz
+ f21c781de5bdecbaa89920a7e9582a132bd9f44e5b1041189b372e0e992ca759 139 nvidia-graphics-drivers-510-server_510.47.03.orig.tar.gz
+ ba584e47396d28425c5545c1e583e27dfb5b56f59bb710921d927ee486756abe 59816 nvidia-graphics-drivers-510-server_510.47.03-0ubuntu3.debian.tar.xz
+Autobuild: yes
+

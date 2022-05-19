@@ -1,0 +1,1592 @@
+Package: thin-provisioning-tools
+Format: 3.0 (quilt)
+Binary: thin-provisioning-tools
+Architecture: any
+Version: 0.9.0-2ubuntu1
+Priority: optional
+Section: misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Uploaders: Bastian Blank <waldi@debian.org>
+Standards-Version: 3.9.5
+Build-Depends: debhelper-compat (= 12), dh-autoreconf, gawk, libaio-dev, libboost-iostreams-dev, libexpat1-dev, libgtest-dev, google-mock
+Vcs-Browser: https://salsa.debian.org/lvm-team/thin-provisioning-tools
+Vcs-Git: https://salsa.debian.org/lvm-team/thin-provisioning-tools.git
+Directory: pool/main/t/thin-provisioning-tools
+Package-List:
+ thin-provisioning-tools deb admin optional arch=any
+Checksums-Sha256:
+ 3d162d5ba9ac53933680349548ef74ec02569aaf98e242c164a9e280f30e70b7 2208 thin-provisioning-tools_0.9.0-2ubuntu1.dsc
+ bcf63d0849c90e5a49a0ae40c3f7841304ad92905fca1e4d2505f88f3588430c 379988 thin-provisioning-tools_0.9.0.orig.tar.xz
+ 7f101446aea04f90275341d00d86dad3d50dda40e87ba542a1214e0626b53446 6752 thin-provisioning-tools_0.9.0-2ubuntu1.debian.tar.xz
+
+Package: thunderbird
+Format: 3.0 (quilt)
+Binary: thunderbird, thunderbird-gnome-support, thunderbird-dev, thunderbird-dbg, thunderbird-mozsymbols, xul-ext-lightning, xul-ext-calendar-timezones, xul-ext-gdata-provider, thunderbird-gnome-support-dbg, thunderbird-locale-bn-bd, thunderbird-locale-en-gb, thunderbird-locale-en-us, thunderbird-locale-es-ar, thunderbird-locale-es-es, thunderbird-locale-fy-nl, thunderbird-locale-ga-ie, thunderbird-locale-nb-no, thunderbird-locale-nn-no, thunderbird-locale-pa-in, thunderbird-locale-pt-br, thunderbird-locale-pt-pt, thunderbird-locale-sv-se, thunderbird-locale-ta-lk, thunderbird-locale-zh-cn, thunderbird-locale-zh-tw, thunderbird-locale-af, thunderbird-locale-ar, thunderbird-locale-ast, thunderbird-locale-be, thunderbird-locale-bg, thunderbird-locale-bn, thunderbird-locale-br, thunderbird-locale-ca, thunderbird-locale-cak, thunderbird-locale-cs, thunderbird-locale-cy, thunderbird-locale-da, thunderbird-locale-de, thunderbird-locale-dsb, thunderbird-locale-el,
+ thunderbird-locale-en, thunderbird-locale-es, thunderbird-locale-et, thunderbird-locale-eu, thunderbird-locale-fa, thunderbird-locale-fi, thunderbird-locale-fr, thunderbird-locale-fy, thunderbird-locale-ga, thunderbird-locale-gd, thunderbird-locale-gl, thunderbird-locale-he, thunderbird-locale-hr, thunderbird-locale-hsb, thunderbird-locale-hu, thunderbird-locale-hy, thunderbird-locale-id, thunderbird-locale-is, thunderbird-locale-it, thunderbird-locale-ja, thunderbird-locale-ka, thunderbird-locale-kab, thunderbird-locale-kk, thunderbird-locale-ko, thunderbird-locale-lt, thunderbird-locale-lv, thunderbird-locale-mk, thunderbird-locale-ms, thunderbird-locale-nb, thunderbird-locale-nl, thunderbird-locale-nn, thunderbird-locale-pa, thunderbird-locale-pl, thunderbird-locale-pt, thunderbird-locale-rm, thunderbird-locale-ro, thunderbird-locale-ru, thunderbird-locale-si, thunderbird-locale-sk, thunderbird-locale-sl, thunderbird-locale-sq, thunderbird-locale-sr,
+ thunderbird-locale-sv, thunderbird-locale-ta, thunderbird-locale-th, thunderbird-locale-tr, thunderbird-locale-uk, thunderbird-locale-uz, thunderbird-locale-vi, thunderbird-locale-zh-hans,
+ thunderbird-locale-zh-hant
+Architecture: any all
+Version: 1:91.8.0+build2-0ubuntu1
+Priority: optional
+Section: web
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Standards-Version: 3.9.1
+Build-Depends: cdbs, debhelper (>= 9), autotools-dev, autoconf2.13, zip, libx11-dev, libx11-xcb-dev, libxt-dev, libxext-dev, libgtk-3-dev (>= 3.4), libglib2.0-dev (>= 2.18), libpango1.0-dev (>= 1.14.0), libfontconfig1-dev, libfreetype6-dev (>= 2.0.1), libstartup-notification0-dev, libasound2-dev, libcurl4-openssl-dev, libssl-dev, libdbus-glib-1-dev (>= 0.60), lsb-release, libiw-dev, mesa-common-dev, libnotify-dev, libxrender-dev, libpulse-dev, nasm (>= 2.14.02), yasm (>= 1.1), imagemagick, docbook-to-man, libkrb5-dev, unzip, dbus-x11, xvfb, python3 (>= 3.6), libffi-dev (>= 3.0.9) [powerpc ppc64el s390x], clang-13 | clang-12 | clang-11 | clang-10, libclang-13-dev | libclang-12-dev | libclang-11-dev | libclang-10-dev, llvm-13-dev | llvm-12-dev | llvm-11-dev | llvm-10-dev, cargo (>= 0.52), rustc (>= 1.51.0), nodejs (>= 10.23.1)
+Vcs-Bzr: https://code.launchpad.net/~mozillateam/thunderbird/thunderbird.jammy
+Directory: pool/main/t/thunderbird
+Package-List:
+ thunderbird deb mail optional arch=any
+ thunderbird-dbg deb debug extra arch=any
+ thunderbird-dev deb oldlibs optional arch=any
+ thunderbird-gnome-support deb gnome optional arch=any
+ thunderbird-gnome-support-dbg deb web optional arch=any
+ thunderbird-locale-af deb web optional arch=any
+ thunderbird-locale-ar deb web optional arch=any
+ thunderbird-locale-ast deb web optional arch=any
+ thunderbird-locale-be deb web optional arch=any
+ thunderbird-locale-bg deb web optional arch=any
+ thunderbird-locale-bn deb web optional arch=any
+ thunderbird-locale-bn-bd deb web optional arch=all
+ thunderbird-locale-br deb web optional arch=any
+ thunderbird-locale-ca deb web optional arch=any
+ thunderbird-locale-cak deb web optional arch=any
+ thunderbird-locale-cs deb web optional arch=any
+ thunderbird-locale-cy deb web optional arch=any
+ thunderbird-locale-da deb web optional arch=any
+ thunderbird-locale-de deb web optional arch=any
+ thunderbird-locale-dsb deb web optional arch=any
+ thunderbird-locale-el deb web optional arch=any
+ thunderbird-locale-en deb web optional arch=any
+ thunderbird-locale-en-gb deb web optional arch=all
+ thunderbird-locale-en-us deb web optional arch=all
+ thunderbird-locale-es deb web optional arch=any
+ thunderbird-locale-es-ar deb web optional arch=all
+ thunderbird-locale-es-es deb web optional arch=all
+ thunderbird-locale-et deb web optional arch=any
+ thunderbird-locale-eu deb web optional arch=any
+ thunderbird-locale-fa deb web optional arch=any
+ thunderbird-locale-fi deb web optional arch=any
+ thunderbird-locale-fr deb web optional arch=any
+ thunderbird-locale-fy deb web optional arch=any
+ thunderbird-locale-fy-nl deb web optional arch=all
+ thunderbird-locale-ga deb web optional arch=any
+ thunderbird-locale-ga-ie deb web optional arch=all
+ thunderbird-locale-gd deb web optional arch=any
+ thunderbird-locale-gl deb web optional arch=any
+ thunderbird-locale-he deb web optional arch=any
+ thunderbird-locale-hr deb web optional arch=any
+ thunderbird-locale-hsb deb web optional arch=any
+ thunderbird-locale-hu deb web optional arch=any
+ thunderbird-locale-hy deb web optional arch=any
+ thunderbird-locale-id deb web optional arch=any
+ thunderbird-locale-is deb web optional arch=any
+ thunderbird-locale-it deb web optional arch=any
+ thunderbird-locale-ja deb web optional arch=any
+ thunderbird-locale-ka deb web optional arch=any
+ thunderbird-locale-kab deb web optional arch=any
+ thunderbird-locale-kk deb web optional arch=any
+ thunderbird-locale-ko deb web optional arch=any
+ thunderbird-locale-lt deb web optional arch=any
+ thunderbird-locale-lv deb web optional arch=any
+ thunderbird-locale-mk deb web optional arch=any
+ thunderbird-locale-ms deb web optional arch=any
+ thunderbird-locale-nb deb web optional arch=any
+ thunderbird-locale-nb-no deb web optional arch=all
+ thunderbird-locale-nl deb web optional arch=any
+ thunderbird-locale-nn deb web optional arch=any
+ thunderbird-locale-nn-no deb web optional arch=all
+ thunderbird-locale-pa deb web optional arch=any
+ thunderbird-locale-pa-in deb web optional arch=all
+ thunderbird-locale-pl deb web optional arch=any
+ thunderbird-locale-pt deb web optional arch=any
+ thunderbird-locale-pt-br deb web optional arch=all
+ thunderbird-locale-pt-pt deb web optional arch=all
+ thunderbird-locale-rm deb web optional arch=any
+ thunderbird-locale-ro deb web optional arch=any
+ thunderbird-locale-ru deb web optional arch=any
+ thunderbird-locale-si deb web optional arch=any
+ thunderbird-locale-sk deb web optional arch=any
+ thunderbird-locale-sl deb web optional arch=any
+ thunderbird-locale-sq deb web optional arch=any
+ thunderbird-locale-sr deb web optional arch=any
+ thunderbird-locale-sv deb web optional arch=any
+ thunderbird-locale-sv-se deb web optional arch=all
+ thunderbird-locale-ta deb web optional arch=any
+ thunderbird-locale-ta-lk deb web optional arch=all
+ thunderbird-locale-th deb web optional arch=any
+ thunderbird-locale-tr deb web optional arch=any
+ thunderbird-locale-uk deb web optional arch=any
+ thunderbird-locale-uz deb web optional arch=any
+ thunderbird-locale-vi deb web optional arch=any
+ thunderbird-locale-zh-cn deb web optional arch=all
+ thunderbird-locale-zh-hans deb web optional arch=any
+ thunderbird-locale-zh-hant deb web optional arch=any
+ thunderbird-locale-zh-tw deb web optional arch=all
+ thunderbird-mozsymbols deb debug extra arch=amd64,i386
+ xul-ext-calendar-timezones deb oldlibs extra arch=any
+ xul-ext-gdata-provider deb oldlibs extra arch=any
+ xul-ext-lightning deb oldlibs extra arch=any
+Checksums-Sha256:
+ aae712907b67bdaa207bd9c043acd9dde9a6316ae8d0bddcb230c86615bda948 8985 thunderbird_91.8.0+build2-0ubuntu1.dsc
+ 6a102c53bf7c1c8a665121b173a02e8ea0b96707c25ef0deb64e8c0ad78faf40 409849324 thunderbird_91.8.0+build2.orig.tar.xz
+ 35a72fe8997e26c44c8ddce7a0f659268ef9f76834e59774fd72c6ee9c436fea 155112 thunderbird_91.8.0+build2-0ubuntu1.debian.tar.xz
+
+Package: time
+Format: 3.0 (quilt)
+Binary: time
+Architecture: any
+Version: 1.9-0.1build2
+Priority: standard
+Section: utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bob Proulx <bob@proulx.com>
+Standards-Version: 4.5.1
+Build-Depends: debhelper (>= 12), texinfo, automake | automaken, autoconf
+Homepage: https://www.gnu.org/software/time
+Directory: pool/main/t/time
+Package-List:
+ time deb utils standard arch=any
+Checksums-Sha256:
+ 8a1b094ec0017330beb3af899e12f35b1ae3711ba7d5517081e567bd5c9d50bb 1835 time_1.9-0.1build2.dsc
+ fbacf0c81e62429df3e33bda4cee38756604f18e01d977338e23306a3e3b521e 596779 time_1.9.orig.tar.gz
+ 54c9ffe2927c3060b88e0e91aec3ce1c87c7259a006ed36e5f3b3f08d7c83dfe 14356 time_1.9-0.1build2.debian.tar.xz
+
+Package: tlp
+Format: 3.0 (quilt)
+Binary: tlp, tlp-rdw
+Architecture: all
+Version: 1.5.0-1ubuntu3
+Priority: optional
+Section: misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://linrunner.de/tlp
+Vcs-Browser: https://salsa.debian.org/moonsweep/tlp
+Vcs-Git: https://salsa.debian.org/moonsweep/tlp.git
+Directory: pool/main/t/tlp
+Package-List:
+ tlp deb utils optional arch=all
+ tlp-rdw deb utils optional arch=all
+Checksums-Sha256:
+ ae60359dcd5f3ff03790a3240ada152139b3404039e7e7a0a942b03fe69034a8 1313 tlp_1.5.0-1ubuntu3.dsc
+ b5f08f00d535c26abc49b336b4c7264c6e5fb7bc3de8054eaabeebdd00e0760e 126447 tlp_1.5.0.orig.tar.gz
+ 49e07c43c1b6748229dbebe91d134656b06d5a8daec62cb1eef04129f7d8f3bf 11036 tlp_1.5.0-1ubuntu3.debian.tar.xz
+
+Package: tzdata
+Format: 3.0 (quilt)
+Binary: tzdata
+Architecture: all
+Version: 2022a-0ubuntu1
+Priority: important
+Section: libs
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: gawk, po-debconf, symlinks, icu-devtools
+Homepage: https://www.iana.org/time-zones
+Vcs-Browser: https://salsa.debian.org/glibc-team/tzdata
+Vcs-Git: https://salsa.debian.org/glibc-team/tzdata.git
+Directory: pool/main/t/tzdata
+Package-List:
+ tzdata deb localization required arch=all
+Checksums-Sha256:
+ d0724193ac75ef20b2722f692d11ecc5619902e850e8328b13b056c5f86cd8d8 2085 tzdata_2022a-0ubuntu1.dsc
+ ef7fffd9f4f50f4f58328b35022a32a5a056b245c5cb3d6791dddb342f871664 425833 tzdata_2022a.orig.tar.gz
+ a7e7cc7588f10c6d6d91c30ad67feaeb6947407e312ac1870cdabae3e0888c89 172576 tzdata_2022a-0ubuntu1.debian.tar.xz
+
+Package: u-boot-menu
+Format: 3.0 (native)
+Binary: u-boot-menu
+Architecture: all
+Version: 4.0.4ubuntu1
+Priority: optional
+Section: misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jonas Smedegaard <dr@jones.dk>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/suihkulokki/u-boot-menu
+Vcs-Browser: https://salsa.debian.org/debian/u-boot-menu
+Vcs-Git: https://salsa.debian.org/debian/u-boot-menu.git
+Directory: pool/main/u/u-boot-menu
+Package-List:
+ u-boot-menu deb admin optional arch=all
+Checksums-Sha256:
+ 0220d5fe3087601eb47d2fa6acd85bd40ad9e6e197b49eb1824381f68bfc6c52 1344 u-boot-menu_4.0.4ubuntu1.dsc
+ 957c711a8e98d033f460be5e2f8821455bd41a82c107153594e0460b845ebdb0 13080 u-boot-menu_4.0.4ubuntu1.tar.xz
+
+Package: u-boot
+Format: 3.0 (quilt)
+Binary: u-boot, u-boot-amlogic, u-boot-imx, u-boot-qemu, u-boot-qcom, u-boot-tegra, u-boot-omap, u-boot-sunxi, u-boot-exynos, u-boot-mvebu, u-boot-rockchip, u-boot-rpi, u-boot-sifive, u-boot-tools
+Architecture: linux-any all
+Version: 2022.01+dfsg-2ubuntu2
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Vagrant Cascadian <vagrant@debian.org>
+Uploaders: Loïc Minier <lool@debian.org>, Clint Adams <clint@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: arm-trusted-firmware (>= 2.6~) [arm64], bc, binutils (>= 2.37.90.20220123-2~), bison, crust-firmware (>= 0.3-2~) [arm64], debhelper-compat (= 13), device-tree-compiler, flex, libfdt-dev:native [arm64], libc6:arm64 [arm64] <cross !pkg.uboot.notools>, libc6:armhf [armhf] <cross !pkg.uboot.notools>, libc6:armel [armel] <cross !pkg.uboot.notools>, libc6:riscv64 [riscv64] <cross !pkg.uboot.notools>, libpython3-dev:native [linux-any], libssl-dev, libssl-dev:native, opensbi (>= 1.0-2~) [riscv64], python3:any [linux-any], python3-distutils [linux-any], python3-pkg-resources [linux-any], swig [linux-any], lzop [armhf]
+Build-Depends-Indep: gcc-i686-linux-gnu [!i386], gcc-arm-linux-gnueabihf [!armhf], gcc-aarch64-linux-gnu [!arm64], gcc-riscv64-linux-gnu [!riscv64], gcc-x86-64-linux-gnu [!amd64], gcc-powerpc-linux-gnu [!powerpc]
+Homepage: https://www.denx.de/wiki/U-Boot/
+Vcs-Browser: https://salsa.debian.org/debian/u-boot
+Vcs-Git: https://salsa.debian.org/debian/u-boot.git
+Directory: pool/main/u/u-boot
+Package-List:
+ u-boot deb admin optional arch=armel,armhf,avr32,mips,sh4
+ u-boot-amlogic deb admin optional arch=arm64
+ u-boot-exynos deb admin optional arch=armhf
+ u-boot-imx deb admin optional arch=armhf
+ u-boot-mvebu deb admin optional arch=arm64
+ u-boot-omap deb admin optional arch=armhf
+ u-boot-qcom deb admin optional arch=arm64
+ u-boot-qemu deb admin optional arch=all
+ u-boot-rockchip deb admin optional arch=armhf,arm64
+ u-boot-rpi deb admin optional arch=armel,armhf,arm64
+ u-boot-sifive deb admin optional arch=riscv64
+ u-boot-sunxi deb admin optional arch=armhf,arm64
+ u-boot-tegra deb admin optional arch=armhf,arm64
+ u-boot-tools deb admin optional arch=linux-any profile=!pkg.uboot.notools
+Checksums-Sha256:
+ b83068097513d37b5cbdcbbe158347bbe75381c233039cb42e227013e3f28a46 3733 u-boot_2022.01+dfsg-2ubuntu2.dsc
+ 7c6eab0f58cfe4b60b33b351dc7236c81f991a47e96c0b313d45f5ad23872fbb 14733716 u-boot_2022.01+dfsg.orig.tar.xz
+ c59e87bd44cee858652620199dae9820f3e3055c5d9540b9190615fd0fce6a37 62828 u-boot_2022.01+dfsg-2ubuntu2.debian.tar.xz
+
+Package: ubuntu-keyring
+Format: 1.0
+Binary: ubuntu-keyring, ubuntu-keyring-udeb, ubuntu-cloud-keyring, ubuntu-oem-keyring, ubuntu-dbgsym-keyring, ubuntu-cloudimage-keyring
+Architecture: all
+Version: 2021.03.26
+Priority: important
+Section: misc
+Maintainer: Dimitri John Ledkov <dimitri.ledkov@canonical.com>
+Standards-Version: 4.1.3
+Build-Depends: gnupg, debian-keyring, debhelper (>= 10)
+Directory: pool/main/u/ubuntu-keyring
+Package-List:
+ ubuntu-cloud-keyring deb misc optional arch=all
+ ubuntu-cloudimage-keyring deb misc optional arch=all
+ ubuntu-dbgsym-keyring deb misc optional arch=all
+ ubuntu-keyring deb misc important arch=all
+ ubuntu-keyring-udeb udeb debian-installer standard arch=all
+ ubuntu-oem-keyring deb misc optional arch=all
+Checksums-Sha256:
+ e8fef04540623d14827938a7a0d605bea709f076a1aca4989669a2055cf9a9bc 1855 ubuntu-keyring_2021.03.26.dsc
+ 492eed5c06408c6f632577adb0796130af5d6542013ef418f47187a209e49bb1 34529 ubuntu-keyring_2021.03.26.tar.gz
+
+Package: ubuntu-docs
+Format: 3.0 (native)
+Binary: ubuntu-docs
+Architecture: all
+Version: 22.04.4
+Priority: optional
+Section: text
+Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), gnome-pkg-tools (>= 0.10)
+Build-Depends-Indep: yelp-tools, pkg-config
+Homepage: https://launchpad.net/ubuntu-docs
+Vcs-Git: https://git.launchpad.net/~ubuntu-core-doc/ubuntu/+source/ubuntu-docs/
+Directory: pool/main/u/ubuntu-docs
+Package-List:
+ ubuntu-docs deb doc optional arch=all
+Checksums-Sha256:
+ 9494b85e444db02f99759e6e8163d28ae585246eb76b28ddb9770bb5b190e76c 1299 ubuntu-docs_22.04.4.dsc
+ 20c8c8e39a1f3306af2d3d55bc42b4b9ad30a200bc24a71141531ce7cb025620 324260 ubuntu-docs_22.04.4.tar.xz
+
+Package: ubuntu-settings
+Format: 3.0 (native)
+Binary: ubuntu-settings, ubuntu-touch-settings, ubuntu-raspi-settings
+Architecture: all
+Version: 22.04.6
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Standards-Version: 4.1.0
+Build-Depends: debhelper-compat (= 12), meson (>= 0.40.1), dh-translations
+Vcs-Browser: https://git.launchpad.net/~ubuntu-desktop/ubuntu/+source/ubuntu-settings
+Vcs-Git: https://git.launchpad.net/~ubuntu-desktop/ubuntu/+source/ubuntu-settings
+Directory: pool/main/u/ubuntu-settings
+Package-List:
+ ubuntu-raspi-settings deb x11 optional arch=all
+ ubuntu-settings deb x11 optional arch=all
+ ubuntu-touch-settings deb x11 optional arch=all
+Checksums-Sha256:
+ 1489fce2e544f4183b34ebeef69e2f465c2ee073378c34caf3142e5af36a283d 1201 ubuntu-settings_22.04.6.dsc
+ d7367ed4c16ee9ff7f2ab5d9a5c1f075fe19e906d46a3256d7b8f66ff88c4d7a 13288 ubuntu-settings_22.04.6.tar.xz
+
+Package: ubuntu-wallpapers
+Format: 3.0 (quilt)
+Binary: ubuntu-wallpapers, ubuntu-wallpapers-karmic, ubuntu-wallpapers-lucid, ubuntu-wallpapers-maverick, ubuntu-wallpapers-natty, ubuntu-wallpapers-oneiric, ubuntu-wallpapers-precise, ubuntu-wallpapers-quantal, ubuntu-wallpapers-raring, ubuntu-wallpapers-saucy, ubuntu-wallpapers-trusty, ubuntu-wallpapers-utopic, ubuntu-wallpapers-vivid, ubuntu-wallpapers-wily, ubuntu-wallpapers-xenial, ubuntu-wallpapers-yakkety, ubuntu-wallpapers-zesty, ubuntu-wallpapers-artful, ubuntu-wallpapers-bionic, ubuntu-wallpapers-cosmic, ubuntu-wallpapers-disco, ubuntu-wallpapers-eoan, ubuntu-wallpapers-focal, ubuntu-wallpapers-groovy, ubuntu-wallpapers-groovy-raspi, ubuntu-wallpapers-hirsute, ubuntu-wallpapers-impish, ubuntu-wallpapers-jammy
+Architecture: all
+Version: 22.04.4-0ubuntu1
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11), python3, dh-python
+Build-Depends-Indep: python3-distutils-extra
+Homepage: https://launchpad.net/ubuntu-wallpapers
+Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-wallpapers/ubuntu/files
+Vcs-Bzr: https://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-wallpapers/ubuntu
+Directory: pool/main/u/ubuntu-wallpapers
+Package-List:
+ ubuntu-wallpapers deb metapackages optional arch=all
+ ubuntu-wallpapers-artful deb x11 optional arch=all
+ ubuntu-wallpapers-bionic deb x11 optional arch=all
+ ubuntu-wallpapers-cosmic deb x11 optional arch=all
+ ubuntu-wallpapers-disco deb x11 optional arch=all
+ ubuntu-wallpapers-eoan deb x11 optional arch=all
+ ubuntu-wallpapers-focal deb x11 optional arch=all
+ ubuntu-wallpapers-groovy deb x11 optional arch=all
+ ubuntu-wallpapers-groovy-raspi deb x11 optional arch=all
+ ubuntu-wallpapers-hirsute deb x11 optional arch=all
+ ubuntu-wallpapers-impish deb x11 optional arch=all
+ ubuntu-wallpapers-jammy deb x11 optional arch=all
+ ubuntu-wallpapers-karmic deb x11 optional arch=all
+ ubuntu-wallpapers-lucid deb x11 optional arch=all
+ ubuntu-wallpapers-maverick deb x11 optional arch=all
+ ubuntu-wallpapers-natty deb x11 optional arch=all
+ ubuntu-wallpapers-oneiric deb x11 optional arch=all
+ ubuntu-wallpapers-precise deb x11 optional arch=all
+ ubuntu-wallpapers-quantal deb x11 optional arch=all
+ ubuntu-wallpapers-raring deb x11 optional arch=all
+ ubuntu-wallpapers-saucy deb x11 optional arch=all
+ ubuntu-wallpapers-trusty deb x11 optional arch=all
+ ubuntu-wallpapers-utopic deb x11 optional arch=all
+ ubuntu-wallpapers-vivid deb x11 optional arch=all
+ ubuntu-wallpapers-wily deb x11 optional arch=all
+ ubuntu-wallpapers-xenial deb x11 optional arch=all
+ ubuntu-wallpapers-yakkety deb x11 optional arch=all
+ ubuntu-wallpapers-zesty deb x11 optional arch=all
+Checksums-Sha256:
+ 6278bb62b2dc8d780b95aa1f84d97bcc5fe4bee316d1b952772ab1362b07a3f2 4212 ubuntu-wallpapers_22.04.4-0ubuntu1.dsc
+ 83a9469e84c908d29f9fb2484029575a2d05548f9d984dca556740b622c5dd1e 269998988 ubuntu-wallpapers_22.04.4.orig.tar.gz
+ 430a61aa87de2fc12ba3a7ba583df16643839c3b14c7d9138d67e43d43767a6b 32112 ubuntu-wallpapers_22.04.4-0ubuntu1.debian.tar.xz
+
+Package: ucf
+Format: 3.0 (native)
+Binary: ucf
+Architecture: all
+Version: 3.0043
+Priority: important
+Section: utils
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: po-debconf, gettext
+Vcs-Browser: https://salsa.debian.org/srivasta/ucf
+Vcs-Git: https://salsa.debian.org/srivasta/ucf.git
+Directory: pool/main/u/ucf
+Package-List:
+ ucf deb utils standard arch=all
+Checksums-Sha256:
+ 5954508238ff1b8e2c61e1f533268911ba06709e821c02de014fd15d2ead81fd 1423 ucf_3.0043.dsc
+ 0294cc11a6cf032ea99ca5064f73a4ede5b28bc2d4ad0a12e8493c7520c7a2a4 70560 ucf_3.0043.tar.xz
+Dgit: 21300713416b2be94dfa8457452f52656d4afada debian archive/debian/3.0043 https://git.dgit.debian.org/ucf
+
+Package: ufw
+Format: 3.0 (quilt)
+Binary: ufw
+Architecture: all
+Version: 0.36.1-4build1
+Priority: standard
+Section: admin
+Maintainer: Jamie Strandboge <jdstrand@ubuntu.com>
+Standards-Version: 4.6.0.1
+Build-Depends: debhelper-compat (= 13), dh-python, po-debconf, python3 (>= 3.2), python3-distutils
+Build-Depends-Indep: iptables, netbase, procps, sed (>= 3.95)
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-python, iptables, netbase, procps, python3, python3-distutils, sed
+Homepage: https://launchpad.net/ufw
+Vcs-Browser: https://git.launchpad.net/ufw?h=debian/master
+Vcs-Git: https://git.launchpad.net/ufw -b debian/master
+Directory: pool/main/u/ufw
+Package-List:
+ ufw deb admin optional arch=all
+Checksums-Sha256:
+ 72f168fc52eafa1bfee3202cb4f6ce1814f24ffadd3f3bcd64d3bfa1feabb768 2051 ufw_0.36.1-4build1.dsc
+ 1c57e78fbf2970f0cc9c56ea87a231e6d83d825e55b9e31e2c88b91b0ea03c8c 583123 ufw_0.36.1.orig.tar.gz
+ 45aef262101d05504d031a6fa4840ad44cd2b00d140c97c2f59f4c472091049c 37068 ufw_0.36.1-4build1.debian.tar.xz
+
+Package: unattended-upgrades
+Format: 3.0 (native)
+Binary: unattended-upgrades
+Architecture: all
+Version: 2.8ubuntu1
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Vogt <mvo@debian.org>
+Uploaders: Balint Reczey <rbalint@ubuntu.com>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9.20160709), equivs, po-debconf, python3, python3-dbus, python3-distutils-extra, python3-gi, python3-setuptools
+Build-Depends-Indep: python3-dev, python3-coverage, python3-distro-info, pycodestyle | pep8, pyflakes3, python3-apt (>= 1.9.6~), python3-mock, lsb-release
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, apt, debootstrap, distro-info
+Vcs-Git: https://github.com/mvo5/unattended-upgrades.git
+Directory: pool/main/u/unattended-upgrades
+Package-List:
+ unattended-upgrades deb admin optional arch=all
+Checksums-Sha256:
+ 5db45b21333f092683c3cca6ac077bcb4a749c2b9a71901b7f8daedd8c348c50 2010 unattended-upgrades_2.8ubuntu1.dsc
+ ab1595821e3a16fc37ec15c3cd50d8c56886505c8d7daf59807b9b40334d699e 124928 unattended-upgrades_2.8ubuntu1.tar.xz
+
+Package: unicode-data
+Format: 3.0 (quilt)
+Binary: unicode-data
+Architecture: all
+Version: 14.0.0-1.1
+Section: misc
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: bzip2, unzip
+Homepage: https://www.unicode.org/
+Directory: pool/main/u/unicode-data
+Package-List:
+ unicode-data deb misc optional arch=all
+Checksums-Sha256:
+ 59464a75f5c49fc34a8a11d9bdd29e9f429499df661f79360c0cfbabe0102fae 1221 unicode-data_14.0.0-1.1.dsc
+ 379b760b7ce8a9a5644388c504f85ed8466eabe8a85b45bdfc3b585cf3ac9e4e 13804440 unicode-data_14.0.0.orig.tar.xz
+ 612a9f27110ff6e1ef1e6f1568cf6e8157e52f91557d88314ce352ec13001dbf 3892 unicode-data_14.0.0-1.1.debian.tar.xz
+
+Package: unzip
+Format: 3.0 (quilt)
+Binary: unzip
+Architecture: any
+Version: 6.0-26ubuntu3
+Priority: optional
+Section: utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), libbz2-dev
+Homepage: http://www.info-zip.org/UnZip.html
+Directory: pool/main/u/unzip
+Package-List:
+ unzip deb utils optional arch=any
+Checksums-Sha256:
+ 632b873d4ab65a372aa3b4452a28a187471e66572dbe4ed612e33559b7783705 1832 unzip_6.0-26ubuntu3.dsc
+ 036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37 1376845 unzip_6.0.orig.tar.gz
+ 9ecfaa1f88ccc5b120fa377a074b5483322e6fcb8b750a38b77d983069518849 27076 unzip_6.0-26ubuntu3.debian.tar.xz
+
+Package: update-inetd
+Format: 3.0 (native)
+Binary: update-inetd
+Architecture: all
+Version: 4.51
+Priority: optional
+Section: admin
+Maintainer: Guillem Jover <guillem@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), po-debconf
+Testsuite: autopkgtest
+Vcs-Browser: https://git.hadrons.org/cgit/debian/update-inetd.git
+Vcs-Git: https://git.hadrons.org/git/debian/update-inetd.git
+Directory: pool/main/u/update-inetd
+Package-List:
+ update-inetd deb admin optional arch=all
+Checksums-Sha256:
+ ac1c7920d426b8f642b7eb8a4ed9d605a12c97de838ff1209c69115e1f36d7b5 1583 update-inetd_4.51.dsc
+ e426fd30204099edd8708782a90739a5d5f538800998a8d1d9f4227fa6719c55 29892 update-inetd_4.51.tar.xz
+
+Package: update-notifier
+Format: 3.0 (native)
+Binary: update-notifier, update-notifier-common
+Architecture: any all
+Version: 3.192.54
+Priority: optional
+Section: gnome
+Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper (>= 11~), dh-python, libgtk-3-dev, libglib2.0-dev (>= 2.34), libjson-glib-dev, intltool, libnotify-dev (>= 0.7), libgudev-1.0-dev, libx11-dev, libayatana-appindicator3-dev, lsb-release, po-debconf, python3, python3-apt, python3-debconf, python3-debian, python3-distro-info, python3-mock
+Testsuite: autopkgtest
+Testsuite-Triggers: pycodestyle, pyflakes3, python3-mock, python3-nose
+Vcs-Git: https://git.launchpad.net/update-notifier -b master
+Directory: pool/main/u/update-notifier
+Package-List:
+ update-notifier deb gnome optional arch=any
+ update-notifier-common deb gnome optional arch=all
+Checksums-Sha256:
+ 2b7fc83bbf9ed9bfcfdd32224fe49f630036585c369cc7e72ed190bf32a21186 1970 update-notifier_3.192.54.dsc
+ da3c6a134c5efb32346b653b5a0051ec399636ec2275c3186afe3c31037c9241 264372 update-notifier_3.192.54.tar.xz
+
+Package: usb-creator
+Format: 3.0 (native)
+Binary: usb-creator-common, usb-creator-gtk, usb-creator-kde
+Architecture: all
+Version: 0.3.13
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: usb-creator Hackers Team <usb-creator-hackers@lists.launchpad.net>
+Uploaders: Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>, Ignace Mouzannar <mouzannar@gmail.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), dh-translations, dh-python, python3, python3-distutils-extra, pkg-kde-tools
+Vcs-Bzr: http://bazaar.launchpad.net/~usb-creator-hackers/usb-creator/trunk
+Directory: pool/main/u/usb-creator
+Package-List:
+ usb-creator-common deb admin optional arch=all
+ usb-creator-gtk deb admin optional arch=all
+ usb-creator-kde deb admin optional arch=all
+Checksums-Sha256:
+ 8600db86ccf23faf241a8ec12daaf2dd0debd89870426e02bc38ab7eae660d3f 1917 usb-creator_0.3.13.dsc
+ a6f618a2b0e77c0d3ef60fca0afba7301f784fd35924dc2fe31567807620e7b3 201640 usb-creator_0.3.13.tar.xz
+
+Package: usb.ids
+Format: 3.0 (quilt)
+Binary: usb.ids
+Architecture: all
+Version: 2022.04.02-1
+Priority: standard
+Section: misc
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 12)
+Homepage: http://www.linux-usb.org/usb-ids.html
+Directory: pool/main/u/usb.ids
+Package-List:
+ usb.ids deb admin optional arch=all
+Checksums-Sha256:
+ ec2a193b745d83a92361ce2b0802c0734cc60a8c3f03e082ce2dc6393de03e00 1745 usb.ids_2022.04.02-1.dsc
+ a70c18962428102021351835ad4fa78ca7efa9978078b9388e3ca3a5ec92144e 201728 usb.ids_2022.04.02.orig.tar.xz
+ a8a815621b0dbf51198eb057d202f941614784b791e5879c51f750205a189f68 2636 usb.ids_2022.04.02-1.debian.tar.xz
+
+Package: usbutils
+Format: 3.0 (quilt)
+Binary: usbutils
+Architecture: linux-any
+Version: 1:014-1build1
+Priority: standard
+Section: utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aurelien Jarno <aurel32@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), libusb-1.0-0-dev, libudev-dev, pkg-config
+Homepage: https://github.com/gregkh/usbutils
+Directory: pool/main/u/usbutils
+Package-List:
+ usbutils deb utils optional arch=linux-any
+Checksums-Sha256:
+ 71624458aa8acc2210b28bb25ab456fb9ff4f1a8c055265c290b84fc5f54d067 1891 usbutils_014-1build1.dsc
+ 3a079cfad60560227b67192482d7813bf96326fcbb66c04254839715f276fc69 165884 usbutils_014.orig.tar.xz
+ 905428710cd0a19fa3f5f01174e572c5fdcad361a2cdb726073b1774e84a65ec 8336 usbutils_014-1build1.debian.tar.xz
+
+Package: usrmerge
+Format: 3.0 (native)
+Binary: usrmerge
+Architecture: all
+Version: 25ubuntu2
+Priority: required
+Section: misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Marco d'Itri <md@linux.it>
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 12), libfile-find-rule-perl
+Vcs-Browser: https://salsa.debian.org/md/usrmerge
+Vcs-Git: https://salsa.debian.org/md/usrmerge.git
+Directory: pool/main/u/usrmerge
+Package-List:
+ usrmerge deb admin optional arch=all
+Checksums-Sha256:
+ 300f406502674d5285d0525b85a90236ea84d69e857379889336affdd3160978 1614 usrmerge_25ubuntu2.dsc
+ c5788586c6b105ca50fba1101d0b46a12a42a0094f023e707466caceab924168 12812 usrmerge_25ubuntu2.tar.xz
+
+Package: valgrind
+Format: 3.0 (quilt)
+Binary: valgrind, valgrind-dbg, valgrind-mpi
+Architecture: amd64 arm64 armhf i386 mips mipsel mips64 mips64el powerpc ppc64 ppc64el s390x x32
+Version: 1:3.18.1-1ubuntu2
+Priority: optional
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), gdb, gcc-multilib [amd64], libc6-dev-i386 [amd64], mpi-default-dev, pkg-config, docbook, docbook-xsl, docbook-xml, xsltproc
+Testsuite: autopkgtest
+Homepage: http://www.valgrind.org/
+Vcs-Browser: https://salsa.debian.org/debian/valgrind
+Vcs-Git: https://salsa.debian.org/debian/valgrind.git
+Directory: pool/main/v/valgrind
+Package-List:
+ valgrind deb devel optional arch=amd64,arm64,armhf,i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,s390x,x32
+ valgrind-dbg deb debug optional arch=amd64,arm64,armhf,i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,s390x,x32
+ valgrind-mpi deb devel optional arch=amd64,arm64,armhf,i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,s390x,x32
+Checksums-Sha256:
+ ec46d8188ae9fb0b8324a2c44d3adafecaa28b4893477abe56e6d5cba106c17e 2520 valgrind_3.18.1-1ubuntu2.dsc
+ 00859aa13a772eddf7822225f4b46ee0d39afbe071d32778da4d99984081f7f5 16149159 valgrind_3.18.1.orig.tar.bz2
+ e9cb2c197b9155d3d5f805d05f69ac9350f4dac72c738b515ce5083f87575b8c 35864 valgrind_3.18.1-1ubuntu2.debian.tar.xz
+
+Package: vim
+Format: 3.0 (quilt)
+Binary: vim-common, vim-gui-common, vim-runtime, vim-doc, vim-tiny, vim, vim-gtk, vim-gtk3, vim-nox, vim-athena, xxd
+Architecture: any all
+Version: 2:8.2.3995-1ubuntu2
+Priority: important
+Section: editors
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Uploaders:  James McCoy <jamessan@debian.org>,
+Standards-Version: 4.5.0
+Build-Depends: autoconf, cscope <!nocheck>, debhelper-compat (= 12), libacl1-dev, libcanberra-dev, libgpmg1-dev [linux-any], libgtk-3-dev, liblua5.2-dev, libperl-dev, libselinux1-dev [linux-any], libsodium-dev, libncurses-dev, libtool-bin <!nocheck>, libxaw7-dev, libxpm-dev, libxt-dev, lua5.2, procps <!nocheck>, python3-dev, ruby [!alpha !ia64] <!pkg.vim.noruby>, ruby-dev [!alpha !ia64] <!pkg.vim.noruby>, tcl-dev
+Build-Depends-Indep: docbook-utils, docbook-xml, ghostscript, lynx, pdf2svg
+Build-Conflicts: autoconf2.13
+Testsuite: autopkgtest
+Testsuite-Triggers: cscope, procps
+Homepage: https://www.vim.org/
+Vcs-Browser: https://salsa.debian.org/vim-team/vim
+Vcs-Git: https://salsa.debian.org/vim-team/vim.git
+Directory: pool/main/v/vim
+Package-List:
+ vim deb editors optional arch=any
+ vim-athena deb editors optional arch=any
+ vim-common deb editors important arch=all
+ vim-doc deb doc optional arch=all
+ vim-gtk deb oldlibs optional arch=all
+ vim-gtk3 deb editors optional arch=any
+ vim-gui-common deb editors optional arch=all
+ vim-nox deb editors optional arch=any
+ vim-runtime deb editors optional arch=all
+ vim-tiny deb editors important arch=any
+ xxd deb editors optional arch=any
+Checksums-Sha256:
+ b3855970dfb3c0fb40dd062e1bbb872c3655bdb3dd82c30790e88437f40d790b 3021 vim_8.2.3995-1ubuntu2.dsc
+ a9d4993d94a212c1e284fe19d7127508dc9c911cddaf91f2a6f72d0b9b71b8ce 10377164 vim_8.2.3995.orig.tar.xz
+ d8d46b9c06b21ea047cc540aa29a8549ba97ba80b4734bdd3eb25e77fe07bb46 224424 vim_8.2.3995-1ubuntu2.debian.tar.xz
+
+Package: w3m
+Format: 3.0 (quilt)
+Binary: w3m, w3m-img
+Architecture: any
+Version: 0.5.3+git20210102-6build3
+Priority: optional
+Section: text
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Tatsuya Kinoshita <tats@debian.org>
+Uploaders: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), gawk | awk, libgc-dev, libgpm-dev [linux-any], libimlib2-dev, libncurses5-dev, libssl-dev, pkg-config, zlib1g-dev
+Homepage: https://tracker.debian.org/pkg/w3m
+Vcs-Browser: https://salsa.debian.org/debian/w3m
+Vcs-Git: https://salsa.debian.org/debian/w3m.git
+Directory: pool/main/w/w3m
+Package-List:
+ w3m deb web optional arch=any
+ w3m-img deb web optional arch=any
+Checksums-Sha256:
+ 2921353c1f64279ac13e433b4c332b8be1e6799df183f15a0db6d6036c8181f9 2202 w3m_0.5.3+git20210102-6build3.dsc
+ 32fcf47999a4fab59021382d382add86fe87159d9e3a95bddafda246ae12f5f9 1161620 w3m_0.5.3+git20210102.orig.tar.xz
+ 4ffd1ca69808e91289b61935e82404ddbe66689c0e478d4c3d1dd2003368574f 29032 w3m_0.5.3+git20210102-6build3.debian.tar.xz
+
+Package: wakeonlan
+Format: 3.0 (quilt)
+Binary: wakeonlan
+Architecture: all
+Version: 0.41-12.1
+Priority: optional
+Section: net
+Maintainer: Thijs Kinkhorst <thijs@debian.org>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), perl
+Homepage: https://github.com/jpoliv/wakeonlan
+Vcs-Browser: https://salsa.debian.org/debian/wakeonlan
+Vcs-Git: https://salsa.debian.org/debian/wakeonlan.git
+Directory: pool/main/w/wakeonlan
+Package-List:
+ wakeonlan deb net optional arch=all
+Checksums-Sha256:
+ c75ebc2e70eb786f5aedde7130a1b17cb5bbe52221f41a67a6cf4de153298505 1831 wakeonlan_0.41-12.1.dsc
+ 581b1b27a7e810ab72668cce4bd9aa9b3e0cea34b2db24dd1a44c09d63ddda98 6028 wakeonlan_0.41.orig.tar.gz
+ 9f3c0dd00ed079f8363468d9f455d030dbe60418f77ddef879d98ba1ca8e8262 3796 wakeonlan_0.41-12.1.debian.tar.xz
+
+Package: wayland-protocols
+Format: 3.0 (quilt)
+Binary: wayland-protocols
+Architecture: all
+Version: 1.25-1
+Priority: extra
+Section: misc
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Héctor Orón Martínez <zumbi@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper (>= 10), meson (>= 0.54.0), libwayland-dev, pkg-config
+Homepage: http://wayland.freedesktop.org/
+Vcs-Browser: https://salsa.debian.org/xorg-team/wayland/wayland-protocols
+Vcs-Git: https://salsa.debian.org/xorg-team/wayland/wayland-protocols.git
+Directory: pool/main/w/wayland-protocols
+Package-List:
+ wayland-protocols deb libdevel optional arch=all
+Checksums-Sha256:
+ b8c15db9abb1ecef1e791de78fe9d75af77e51d37e229f84abf41c5532e49d01 2358 wayland-protocols_1.25-1.dsc
+ f1ff0f7199d0a0da337217dd8c99979967808dc37731a1e759e822b75b571460 79784 wayland-protocols_1.25.orig.tar.xz
+ 410eff799b89eca9df093fb9a5635b2122c27ab3434e5141b9aa612ad5a5e3fb 833 wayland-protocols_1.25.orig.tar.xz.asc
+ 3ff6491f23543a06ea82d091e1d614eb37bd4159d2b437fc9d162f295cde1ccf 8992 wayland-protocols_1.25-1.debian.tar.xz
+
+Package: wdiff
+Format: 3.0 (quilt)
+Binary: wdiff, wdiff-doc
+Architecture: any all
+Version: 1.2.2-2build3
+Priority: optional
+Section: text
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9.20120311), texinfo, libncurses5-dev
+Homepage: http://www.gnu.org/software/wdiff/
+Directory: pool/main/w/wdiff
+Package-List:
+ wdiff deb text optional arch=any
+ wdiff-doc deb doc optional arch=all
+Checksums-Sha256:
+ 1b85a03a1f47fc988813740cdde45fc07325da0166ad3b5fb568edb16f5d3933 1905 wdiff_1.2.2-2build3.dsc
+ 34ff698c870c87e6e47a838eeaaae729fa73349139fc8db12211d2a22b78af6b 1478567 wdiff_1.2.2.orig.tar.gz
+ 8837a0ae2ff2c9ad559dac49d33572e71b1a6c632e159876d35e6437e590f5ab 10224 wdiff_1.2.2-2build3.debian.tar.xz
+
+Package: wfrench
+Format: 3.0 (quilt)
+Binary: wfrench
+Architecture: all
+Version: 1.2.6-1
+Priority: optional
+Section: text
+Maintainer: guillaume pernot <gpernot@praksys.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: dictionaries-common-dev (>= 1.2)
+Homepage: https://salsa.debian.org/gpernot-guest/wfrench
+Vcs-Browser: https://salsa.debian.org/gpernot-guest/wfrench
+Vcs-Git: https://salsa.debian.org/gpernot-guest/wfrench.git
+Directory: pool/main/w/wfrench
+Package-List:
+ wfrench deb text optional arch=all
+Checksums-Sha256:
+ 824bcccc3a483ad6c99b8245294d2ff04c1ec568d2b6f5dd56f5dfd33e5f4ed4 1895 wfrench_1.2.6-1.dsc
+ adad6b21249376caddc81a423be7453304bb4c467e87d4b1f047970d701f1e9a 889229 wfrench_1.2.6.orig.tar.gz
+ 6825ecf55cf0bed9114b3e70103249d6876346ea2a5d1f3ce1c1b73b5457a143 4764 wfrench_1.2.6-1.debian.tar.xz
+
+Package: wget
+Format: 3.0 (quilt)
+Binary: wget, wget-udeb
+Architecture: any
+Version: 1.21.2-2ubuntu1
+Priority: standard
+Section: web
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Noël Köthe <noel@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), pkg-config, gettext, texinfo, libidn2-dev, uuid-dev, libpsl-dev, libpcre2-dev, automake, libssl-dev (>= 0.9.8k), zlib1g-dev, dh-strip-nondeterminism
+Homepage: https://www.gnu.org/software/wget/
+Directory: pool/main/w/wget
+Package-List:
+ wget deb web standard arch=any
+ wget-udeb udeb debian-installer optional arch=any
+Checksums-Sha256:
+ 79dcd0fb8759a4b8ed440e42403486f903925db3e27e2bf532a6ec29b80788f0 2243 wget_1.21.2-2ubuntu1.dsc
+ e6d4c76be82c676dd7e8c61a29b2ac8510ae108a810b5d1d18fc9a1d2c9a2497 5004576 wget_1.21.2.orig.tar.gz
+ 877e0b2580655a0ef71628f3975d2f629f56f5338b169667f97c2742e9970137 833 wget_1.21.2.orig.tar.gz.asc
+ 1c4386ed83909a28ec676dcc4de40b0659c0ecc5fb6e2dce14d2c77bf8c5f220 64160 wget_1.21.2-2ubuntu1.debian.tar.xz
+
+Package: witalian
+Format: 3.0 (native)
+Binary: witalian
+Architecture: all
+Version: 1.10
+Priority: optional
+Section: text
+Maintainer: Davide G. M. Salvetti <salve@debian.org>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: dictionaries-common-dev
+Vcs-Browser: https://salsa.debian.org/salve/witalian
+Vcs-Git: https://salsa.debian.org/salve/witalian.git
+Directory: pool/main/w/witalian
+Package-List:
+ witalian deb text optional arch=all
+Checksums-Sha256:
+ a9f093dd17dae157dae67180a02cf3d983171bab92db2e67f64a620239fe8628 1595 witalian_1.10.dsc
+ d4ffb9ee10c887a94a96f9d62263b21cfea28f7d924fa4de726c8397ff9eb9a1 233856 witalian_1.10.tar.xz
+
+Package: wspanish
+Format: 3.0 (native)
+Binary: wspanish
+Architecture: all
+Version: 1.0.29
+Priority: optional
+Section: text
+Maintainer: Agustin Martin Domingo <agmartin@debian.org>
+Standards-Version: 4.1.4
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: dictionaries-common-dev (>= 1.2)
+Vcs-Browser: https://salsa.debian.org/debian/wspanish
+Vcs-Git: https://salsa.debian.org/debian/wspanish.git
+Directory: pool/main/w/wspanish
+Package-List:
+ wspanish deb text optional arch=all
+Checksums-Sha256:
+ 1509704646ed7b7f946f08e1d6e26acd83cc42f869effa6d19c82ea2540f669a 1579 wspanish_1.0.29.dsc
+ cbabcfe1a37dc7a968571ad0a6615680d0ccabb7804d5f9dc01a836a482a0c54 209792 wspanish_1.0.29.tar.xz
+
+Package: br.ispell
+Format: 3.0 (quilt)
+Binary: ibrazilian, brazilian-conjugate, wbrazilian
+Architecture: all
+Version: 3.0~beta4-23
+Priority: optional
+Section: text
+Maintainer: Agustin Martin Domingo <agmartin@debian.org>
+Standards-Version: 4.2.1
+Build-Depends: gawk, debhelper-compat (= 12), ispell, recode, dictionaries-common-dev (>= 1.23.2), quilt
+Homepage: https://www.ime.usp.br/~ueda/br.ispell/
+Vcs-Browser: https://salsa.debian.org/debian/br.ispell
+Vcs-Git: https://salsa.debian.org/debian/br.ispell.git
+Directory: pool/main/b/br.ispell
+Package-List:
+ brazilian-conjugate deb text optional arch=all
+ ibrazilian deb text optional arch=all
+ wbrazilian deb text optional arch=all
+Checksums-Sha256:
+ cc7e84861b72d7851fb1b0e00302410a1ea1bfaf40c2c745d24b0b0cf332ea93 2071 br.ispell_3.0~beta4-23.dsc
+ 2b84e2d9cbda3f70881f3bfd9c9366087b2290498e2559fcfba2c3d153cf5dba 239939 br.ispell_3.0~beta4.orig.tar.gz
+ 574b9c62ecca21c41fce0da20999858aaa16b085ce9bcc3e532875a7d284dcda 15260 br.ispell_3.0~beta4-23.debian.tar.xz
+
+Package: softcatala-spell
+Format: 3.0 (quilt)
+Binary: icatalan, wcatalan, aspell-ca
+Architecture: all
+Version: 0.20111230b-14
+Priority: extra
+Section: text
+Maintainer: Jordi Mallach <jordi@debian.org>
+Uploaders: Agustin Martin Domingo <agmartin@debian.org>
+Standards-Version: 4.6.0.1
+Build-Depends: aspell, debhelper-compat (= 13), dictionaries-common-dev, ispell
+Homepage: https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic
+Vcs-Browser: https://salsa.debian.org/debian/softcatala-spell
+Vcs-Git: https://salsa.debian.org/debian/softcatala-spell.git
+Directory: pool/main/s/softcatala-spell
+Package-List:
+ aspell-ca deb text optional arch=all
+ icatalan deb text optional arch=all
+ wcatalan deb text optional arch=all
+Checksums-Sha256:
+ 903db3e0cec68a94d635e1969b054cb2b826ee04368d8de61b0e3c8d44bdcda3 2159 softcatala-spell_0.20111230b-14.dsc
+ ba6d7d93a5b569aa88ab2b97c39c33f485b0cac3b55716e07ffd72947c5f5ec0 732948 softcatala-spell_0.20111230b.orig.tar.xz
+ af02fe11bb6e5a6bce9edc0114149c63e914cbc09f8a85934b9fd15c4d1c348b 11116 softcatala-spell_0.20111230b-14.debian.tar.xz
+
+Package: swedish
+Format: 3.0 (quilt)
+Binary: iswedish, wswedish
+Architecture: any all
+Version: 1.4.5-2.3build2
+Priority: optional
+Section: text
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jeremiah C. Foster <jeremiah@jeremiahfoster.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), ispell (>= 3.3.02), perl, dictionaries-common-dev (>= 0.20)
+Directory: pool/main/s/swedish
+Package-List:
+ iswedish deb text optional arch=any
+ wswedish deb text optional arch=all
+Checksums-Sha256:
+ afb3ffc3195b7c21b836a5c8818a1fa9a4916400a1e798a7963ff43e7124a3aa 1921 swedish_1.4.5-2.3build2.dsc
+ a32c27f6b931f5306179092f5ae0498e8cc6b41541b19bcdcea3e2b8ddba40a7 132856 swedish_1.4.5.orig.tar.gz
+ ff4fd0e1bb2c2c0bcdd149d41f6b6b52acaf931e4e447adc767f5563ad36065f 5420 swedish_1.4.5-2.3build2.debian.tar.xz
+
+Package: dsdo
+Format: 3.0 (quilt)
+Binary: idanish, wdanish, aspell-da, myspell-da
+Architecture: any all
+Version: 1.6.36-11.1build2
+Priority: optional
+Section: text
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Uploaders: Agustin Martin Domingo <agmartin@debian.org>
+Standards-Version: 4.1.4
+Build-Depends: cdbs (>= 0.4.72~), devscripts (>= 2.10.7~), aspell (>= 0.60.3-2), dictionaries-common-dev (>= 1.23.2), debhelper (>= 10), dh-buildinfo, ispell (>= 3.3.02), perl, recode
+Homepage: http://da.speling.org/
+Vcs-Browser: https://salsa.debian.org/debian/dsdo
+Vcs-Git: https://salsa.debian.org/debian/dsdo.git
+Directory: pool/main/d/dsdo
+Package-List:
+ aspell-da deb text optional arch=all
+ idanish deb text optional arch=any
+ myspell-da deb text optional arch=all
+ wdanish deb text optional arch=all
+Checksums-Sha256:
+ 1edec4ef19f27bbb2f2e695df53638bb440eca3101af8b3afb7bcece558730cb 1819 dsdo_1.6.36-11.1build2.dsc
+ 7b13973ac23679e232ff7691f70bb156de5a2bf163fdfff81280ff4ab877c9c6 398735 dsdo_1.6.36.orig.tar.gz
+ e8ed0d6b34b2c7e9bd717e9a4e9bbdbc76c448c3c2758503a044b27ae14eb79b 14680 dsdo_1.6.36-11.1build2.debian.tar.xz
+
+Package: ispell-gl
+Format: 3.0 (quilt)
+Binary: igalician-minimos, wgalician-minimos, aspell-gl-minimos
+Architecture: all
+Version: 0.5-48
+Priority: optional
+Section: text
+Maintainer: Agustin Martin Domingo <agmartin@debian.org>
+Standards-Version: 4.6.0.1
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dictionaries-common-dev, ispell, aspell, hunspell-tools | myspell-tools | libmyspell-dev (>= 1:3.1-7)
+Homepage: http://ispell-gl.sourceforge.net
+Vcs-Browser: https://salsa.debian.org/debian/ispell-gl
+Vcs-Git: https://salsa.debian.org/debian/ispell-gl.git
+Directory: pool/main/i/ispell-gl
+Package-List:
+ aspell-gl-minimos deb text optional arch=all
+ igalician-minimos deb text optional arch=all
+ wgalician-minimos deb text optional arch=all
+Checksums-Sha256:
+ d6cf4f9618344389fbb0aedd3ca5ad15703566e49a0046392523f7a3e5acf3a9 2105 ispell-gl_0.5-48.dsc
+ 02121de4ddeaf858b8c5bf621fef0d134939caadd32007c9c78e3905ef14b867 127635 ispell-gl_0.5.orig.tar.gz
+ 5d51074d012a761e3629820db4afda0ef98ae315a161a3211c60d6f412a759cd 10584 ispell-gl_0.5-48.debian.tar.xz
+
+Package: ipolish
+Format: 3.0 (quilt)
+Binary: ipolish, wpolish
+Architecture: all
+Version: 20210105-1
+Priority: optional
+Section: text
+Maintainer: Robert Luberda <robert@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dictionaries-common-dev (>= 1.23~), ispell (>= 3.4.02), locales, recode
+Testsuite: autopkgtest
+Testsuite-Triggers: locales, recode
+Homepage: https://sjp.pl/
+Vcs-Browser: https://salsa.debian.org/debian/ipolish/
+Vcs-Git: https://salsa.debian.org/debian/ipolish.git
+Directory: pool/main/i/ipolish
+Package-List:
+ ipolish deb text optional arch=all
+ wpolish deb text optional arch=all
+Checksums-Sha256:
+ 8f2208fe8630d85a04dd59f19d4f731753ded79a4bfeeaf1c890572e6a6293a2 2020 ipolish_20210105-1.dsc
+ 56d9baffd960f7a433a6827569a8492663a8991f580b778512d42d1f4b5d8fd1 1289019 ipolish_20210105.orig.tar.bz2
+ f750b6cbfb6236f2673a28b58488e3826c28ee940882329ade34c317ecc25466 35824 ipolish_20210105-1.debian.tar.xz
+
+Package: ispell.pt
+Format: 3.0 (quilt)
+Binary: iportuguese, wportuguese, aspell-pt-pt
+Architecture: all
+Version: 20220219-1
+Priority: optional
+Section: text
+Maintainer: Agustin Martin Domingo <agmartin@debian.org>
+Standards-Version: 4.6.0.1
+Build-Depends: ispell, aspell, debhelper-compat (= 13), dictionaries-common-dev, hunspell-tools
+Homepage: https://natura.di.uminho.pt/wiki/doku.php?id=dicionarios:main#ispell
+Vcs-Browser: https://salsa.debian.org/debian/ispell.pt
+Vcs-Git: https://salsa.debian.org/debian/ispell.pt.git
+Directory: pool/main/i/ispell.pt
+Package-List:
+ aspell-pt-pt deb text optional arch=all
+ iportuguese deb text optional arch=all
+ wportuguese deb text optional arch=all
+Checksums-Sha256:
+ 947b94ee1ac45fc06130fee7a7b6bc411df00d7aef169006225b831b4681307c 2069 ispell.pt_20220219-1.dsc
+ 12172ce37d48555d7817132d78490760339bb5acf7c925a59e80141bc3ff563c 183895 ispell.pt_20220219.orig.tar.gz
+ 46c5b9a0bafb1ead9cc8d822b7791e1edd5b99f7dfb8a647f7a3385888cf352b 8952 ispell.pt_20220219-1.debian.tar.xz
+
+Package: hkgerman
+Format: 3.0 (quilt)
+Binary: iogerman, wogerman, myspell-de-de-1901, aspell-de-1901
+Architecture: all
+Version: 1:2-37
+Priority: optional
+Section: text
+Maintainer: Roland Rosenfeld <roland@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: aspell (>> 0.60.3.2-2), dictionaries-common-dev (>= 1.10.5), flex, ispell (>= 3.3.02)
+Testsuite: autopkgtest
+Testsuite-Triggers: aspell, hunspell, ispell
+Vcs-Browser: https://salsa.debian.org/debian/hkgerman
+Vcs-Git: https://salsa.debian.org/debian/hkgerman.git
+Directory: pool/main/h/hkgerman
+Package-List:
+ aspell-de-1901 deb localization optional arch=all
+ iogerman deb localization optional arch=all
+ myspell-de-de-1901 deb localization optional arch=all
+ wogerman deb localization optional arch=all
+Checksums-Sha256:
+ 6849a7979bf9fb2dd199d1e2145929fe19be63ab498331c9641844029b6f72cc 2140 hkgerman_2-37.dsc
+ f5e00e6310937f8d01901b6813cf6d2f6d3616a942fb9fc9fc8876c0a90c174e 375794 hkgerman_2.orig.tar.gz
+ 1870bd858e9f3e01f1496ba2c1dd3f25ebf025a19627a1f99890c221b05ed5d0 31104 hkgerman_2-37.debian.tar.xz
+
+Package: xorg
+Format: 1.0
+Binary: x11-common, xserver-xorg, xserver-xorg-video-all, xserver-xorg-input-all, xorg, xorg-dev, xbase-clients, xutils
+Architecture: any all
+Version: 1:7.7+23ubuntu2
+Priority: optional
+Section: x11
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 4.5.0
+Build-Depends: dpkg (>= 1.16.1), debhelper-compat (= 12), po-debconf, asciidoc
+Homepage: https://www.x.org/
+Vcs-Browser: https://salsa.debian.org/xorg-team/debian/xorg
+Vcs-Git: https://salsa.debian.org/xorg-team/debian/xorg
+Directory: pool/main/x/xorg
+Package-List:
+ x11-common deb x11 optional arch=all
+ xbase-clients deb x11 optional arch=all
+ xorg deb x11 optional arch=any
+ xorg-dev deb x11 optional arch=all
+ xserver-xorg deb x11 optional arch=any
+ xserver-xorg-input-all deb x11 optional arch=any
+ xserver-xorg-video-all deb x11 optional arch=any
+ xutils deb x11 optional arch=all
+Checksums-Sha256:
+ 60fde2e08a27c61f46320a1ccf057ab4fdd983e08c9ab5b603b010259514deb0 2095 xorg_7.7+23ubuntu2.dsc
+ cc30e97fee09a9a8db16931e9eb8b39c37e0699136a8a8d31898ae414a3c4f74 301762 xorg_7.7+23ubuntu2.tar.gz
+
+Package: x11-xkb-utils
+Format: 1.0
+Binary: x11-xkb-utils, x11-xkb-utils-udeb
+Architecture: any
+Version: 7.7+5build4
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), pkg-config, libx11-dev (>= 2:1.3.3-2), libxaw7-dev (>= 1:1.0.1), libxkbfile-dev (>= 1:1.0.6-2), bison, quilt, xutils-dev (>= 1:7.5+4), x11proto-core-dev (>= 7.0.17)
+Vcs-Browser: https://salsa.debian.org/xorg-team/app/x11-xkb-utils
+Vcs-Git: https://salsa.debian.org/xorg-team/app/x11-xkb-utils
+Directory: pool/main/x/x11-xkb-utils
+Package-List:
+ x11-xkb-utils deb x11 optional arch=any
+ x11-xkb-utils-udeb udeb debian-installer optional arch=any
+Checksums-Sha256:
+ 0dc2e63fd94a1fb2af2338cbe64932df4bad0108a228c32170fd261b773b6aca 1947 x11-xkb-utils_7.7+5build4.dsc
+ 59e3c4bd741c028412726d0068a07808983832980aeaf57bcf779676666fefaf 1079800 x11-xkb-utils_7.7+5build4.tar.gz
+
+Package: xorgproto
+Format: 1.0
+Binary: x11proto-dev, x11proto-core-dev, x11proto-dri2-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-present-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xext-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev
+Architecture: all
+Version: 2021.5-1
+Priority: optional
+Section: misc
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), quilt, xutils-dev (>= 1:7.6+2), pkg-config, xmlto, xorg-sgml-doctools (>= 1:1.8), w3m, xsltproc
+Homepage: https://www.x.org/
+Vcs-Browser: https://salsa.debian.org/xorg-team/proto/xorgproto.git
+Vcs-Git: https://salsa.debian.org/xorg-team/proto/xorgproto.git
+Directory: pool/main/x/xorgproto
+Package-List:
+ x11proto-core-dev deb oldlibs optional arch=all
+ x11proto-dev deb x11 optional arch=all
+ x11proto-dri2-dev deb oldlibs optional arch=all
+ x11proto-fonts-dev deb oldlibs optional arch=all
+ x11proto-gl-dev deb oldlibs optional arch=all
+ x11proto-input-dev deb oldlibs optional arch=all
+ x11proto-kb-dev deb oldlibs optional arch=all
+ x11proto-present-dev deb oldlibs optional arch=all
+ x11proto-randr-dev deb oldlibs optional arch=all
+ x11proto-record-dev deb oldlibs optional arch=all
+ x11proto-render-dev deb oldlibs optional arch=all
+ x11proto-scrnsaver-dev deb oldlibs optional arch=all
+ x11proto-video-dev deb oldlibs optional arch=all
+ x11proto-xext-dev deb oldlibs optional arch=all
+ x11proto-xf86dga-dev deb oldlibs optional arch=all
+ x11proto-xf86dri-dev deb oldlibs optional arch=all
+ x11proto-xf86vidmode-dev deb oldlibs optional arch=all
+ x11proto-xinerama-dev deb oldlibs optional arch=all
+Checksums-Sha256:
+ baf6081f2614513ebae99f4d91245aaaad54be83936001086f3d4b9a532d2dd5 3157 xorgproto_2021.5-1.dsc
+ be6ddd6590881452fdfa170c1c9ff87209a98d36155332cbf2ccbc431add86ff 1132811 xorgproto_2021.5.orig.tar.gz
+ 3a8287632a36d219ca429adc57aee6a791bb4e5c45fb7085cb3c7087bcf67aff 22934 xorgproto_2021.5-1.diff.gz
+
+Package: xauth
+Format: 1.0
+Binary: xauth
+Architecture: any
+Version: 1:1.1-1build2
+Priority: standard
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 4.1.1
+Build-Depends: debhelper-compat (= 12), quilt, pkg-config, libx11-dev (>= 2:1.0.0), libxext-dev (>= 1:1.0.0), libxmuu-dev (>= 1:1.0.1), xutils-dev (>= 1:7.5+4), cmdtest <!nocheck>
+Vcs-Browser: https://salsa.debian.org/xorg-team/app/xauth
+Vcs-Git: https://salsa.debian.org/xorg-team/app/xauth.git
+Directory: pool/main/x/xauth
+Package-List:
+ xauth deb x11 optional arch=any
+Checksums-Sha256:
+ 68d3ce7a0f72b52ff8e8574e19538c4f740928b6822e1e6f028b9db7322181d3 2010 xauth_1.1-1build2.dsc
+ e9fce796c8c5c9368594b9e8bbba237fb54b6615f5fd60e8d0a5b3c52a92c5ef 204146 xauth_1.1.orig.tar.gz
+ 422b4f58ad79ab7f1b14e8fd26f35b10e5aacd72f548952afe2816f2ba1f4c9c 14166 xauth_1.1-1build2.diff.gz
+
+Package: xbitmaps
+Format: 1.0
+Binary: xbitmaps
+Architecture: all
+Version: 1.1.1-2.1ubuntu1
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Cyril Brulebois <kibi@debian.org>
+Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 7), xutils-dev (>= 1:7.5~), automake
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/data/xbitmaps.git
+Vcs-Git: git://git.debian.org/git/pkg-xorg/data/xbitmaps
+Directory: pool/main/x/xbitmaps
+Package-List:
+ xbitmaps deb x11 optional arch=all
+Checksums-Sha256:
+ ae8b5a1258959d9c5e2bfb9c61f68e7b1af361a9f16560cdd1ca090f61a38a3a 1354 xbitmaps_1.1.1-2.1ubuntu1.dsc
+ 3bc89e05be4179ce4d3dbba1ae554da4591d41f7a489d9e2735a18cfd8378188 140011 xbitmaps_1.1.1.orig.tar.gz
+ acbf1b6730aa047fde7ae10d6df8380605dac440a53bba5279c81c2e5f438567 13485 xbitmaps_1.1.1-2.1ubuntu1.diff.gz
+
+Package: xcursor-themes
+Format: 1.0
+Binary: xcursor-themes
+Architecture: all
+Version: 1.0.6-0ubuntu1
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.8.3.0
+Build-Depends: debhelper (>= 9), dh-autoreconf, quilt, pkg-config, x11-apps | xcursorgen, libxcursor-dev, automake, xutils-dev (>= 1:7.5~1)
+Vcs-Browser: https://salsa.debian.org/xorg-team/data/xcursor-themes
+Vcs-Git: https://salsa.debian.org/xorg-team/data/xcursor-themes.git
+Directory: pool/main/x/xcursor-themes
+Package-List:
+ xcursor-themes deb x11 optional arch=all
+Checksums-Sha256:
+ 043fd5b5eff97c78d738bab3df4958f1a9d04ddd4d864e76c775933d22f3062d 1445 xcursor-themes_1.0.6-0ubuntu1.dsc
+ 22638f7bd6257adf889d25af9c8a7b2cfdcf5a5e18339d25fbb092dbf6c663c1 2562225 xcursor-themes_1.0.6.orig.tar.gz
+ 56b9d2181f0f891da34b0aa902260e175224a476e290e3046e37548096b3f023 9245 xcursor-themes_1.0.6-0ubuntu1.diff.gz
+
+Package: xdg-dbus-proxy
+Format: 3.0 (quilt)
+Binary: xdg-dbus-proxy, xdg-dbus-proxy-tests
+Architecture: any
+Version: 0.1.3-1
+Priority: optional
+Section: misc
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Simon McVittie <smcv@debian.org>,
+Standards-Version: 4.6.0
+Build-Depends: autoconf-archive, dbus <!nocheck>, debhelper-compat (= 13), docbook-xml, docbook-xsl, libglib2.0-dev, xsltproc
+Testsuite: autopkgtest
+Testsuite-Triggers: gnome-desktop-testing
+Homepage: https://github.com/flatpak/xdg-dbus-proxy
+Vcs-Browser: https://salsa.debian.org/debian/xdg-dbus-proxy
+Vcs-Git: https://salsa.debian.org/debian/xdg-dbus-proxy.git
+Directory: pool/main/x/xdg-dbus-proxy
+Package-List:
+ xdg-dbus-proxy deb admin optional arch=any
+ xdg-dbus-proxy-tests deb admin optional arch=any
+Checksums-Sha256:
+ cfec2f55fa12315cb0fd18c7cde1c8f7fa653620aec16b445db0be91394dd694 2323 xdg-dbus-proxy_0.1.3-1.dsc
+ 03b5d28ca879253ddbbce31098909becca1495ea811a6377a492e28f16c09b9b 119896 xdg-dbus-proxy_0.1.3.orig.tar.xz
+ 647a1f26049520a7d28b18506de527e19eb1e1c3e212f53a36cc2eda56574b53 3456 xdg-dbus-proxy_0.1.3-1.debian.tar.xz
+Dgit: daa1016184e952d64a1841f4e79db8c5753f87d6 debian archive/debian/0.1.3-1 https://git.dgit.debian.org/xdg-dbus-proxy
+
+Package: xdg-utils
+Format: 3.0 (quilt)
+Binary: xdg-utils
+Architecture: all
+Version: 1.1.3-4.1ubuntu1
+Priority: optional
+Section: utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Uploaders:  Per Olofsson <pelle@debian.org>, Nicholas Guriev <guriev-ns@ya.ru>,
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: mawk | awk, w3m | links | lynx, xmlto
+Testsuite: autopkgtest
+Testsuite-Triggers: bash, dash, make
+Homepage: https://www.freedesktop.org/wiki/Software/xdg-utils/
+Vcs-Browser: https://salsa.debian.org/freedesktop-team/xdg-utils
+Vcs-Git: https://salsa.debian.org/freedesktop-team/xdg-utils.git
+Directory: pool/main/x/xdg-utils
+Package-List:
+ xdg-utils deb utils optional arch=all
+Checksums-Sha256:
+ a3e910147d95095fdcbcaf02af68ad2f73841eaff3959bda0eb80bce9588f9ef 1640 xdg-utils_1.1.3-4.1ubuntu1.dsc
+ d798b08af8a8e2063ddde6c9fa3398ca81484f27dec642c5627ffcaa0d4051d9 297170 xdg-utils_1.1.3.orig.tar.gz
+ 5492ce39d9bf161dff0dd2473110a6aea06c7879dab945a7e6c9376f55430e56 16080 xdg-utils_1.1.3-4.1ubuntu1.debian.tar.xz
+
+Package: xfonts-base
+Format: 1.0
+Binary: xfonts-base
+Architecture: all
+Version: 1:1.0.5
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: pkg-config, xfonts-utils (>= 1:7.5), xutils-dev (>= 1:7.5+4)
+Vcs-Browser: https://salsa.debian.org/xorg-team/font/xfonts-base
+Vcs-Git: https://salsa.debian.org/xorg-team/font/xfonts-base.git
+Directory: pool/main/x/xfonts-base
+Package-List:
+ xfonts-base deb fonts optional arch=all
+Checksums-Sha256:
+ e4cbfdfdf8abcfe08444b86ae8a70743e7afd5872f83693921c7502d2b5d773d 1667 xfonts-base_1.0.5.dsc
+ c2aef282be91aa1d2ccc8193400d073603c5670cecd9f3522f94f15ac2dca881 6540582 xfonts-base_1.0.5.tar.gz
+
+Package: xfonts-encodings
+Format: 1.0
+Binary: xfonts-encodings
+Architecture: all
+Version: 1:1.0.5-0ubuntu2
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: pkg-config, xfonts-utils (>= 1:7.6~), autoconf, automake, xutils-dev (>= 1:7.5+1)
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/font/xfonts-encodings.git
+Vcs-Git: git://git.debian.org/git/pkg-xorg/font/xfonts-encodings.git
+Directory: pool/main/x/xfonts-encodings
+Package-List:
+ xfonts-encodings deb x11 optional arch=all
+Checksums-Sha256:
+ ede41e05bf2df0e95f613351013178f406e9041382e5c2abeced162a2f8e10ed 1464 xfonts-encodings_1.0.5-0ubuntu2.dsc
+ 66f524ab53acdd0823265e1b1a894f8652c928ae75a18b39aafd6a2d4a5577b0 790741 xfonts-encodings_1.0.5.orig.tar.gz
+ d946c93b7014c6eacd9a537add008a3a19fce73a01923083978a3c39ab591fb4 14293 xfonts-encodings_1.0.5-0ubuntu2.diff.gz
+
+Package: xfonts-scalable
+Format: 1.0
+Binary: xfonts-scalable
+Architecture: all
+Version: 1:1.0.3-1.2ubuntu1
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Cyril Brulebois <kibi@debian.org>
+Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 7), xfonts-utils (>= 1:7.6~), automake, autoconf, xutils-dev (>= 1:7.5+1), pkg-config
+Directory: pool/main/x/xfonts-scalable
+Package-List:
+ xfonts-scalable deb fonts optional arch=all
+Checksums-Sha256:
+ 8149c12c77be3410b931da7fe8819051f0fece507056364e30a966fe5667a6b1 1385 xfonts-scalable_1.0.3-1.2ubuntu1.dsc
+ 3399b7586c18be509cdaeceeebf754b861faa1d8799dda1aae01aeb2a7a30f01 450458 xfonts-scalable_1.0.3.orig.tar.gz
+ 097d39f1eb816c3ed39cea61de9a2487a54e21cd3bbde8a7232fef57272b9d8c 14516 xfonts-scalable_1.0.3-1.2ubuntu1.diff.gz
+
+Package: xfonts-utils
+Format: 1.0
+Binary: xfonts-utils
+Architecture: any
+Version: 1:7.7+6build2
+Priority: optional
+Section: x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), pkg-config, quilt, autotools-dev, libx11-dev (>= 2:1.0.0), x11proto-core-dev (>= 7.0.25), libfreetype6-dev, libfontenc-dev, xutils-dev (>= 1:7.5+4), x11proto-fonts-dev
+Vcs-Browser: https://salsa.debian.org/xorg-team/font/xfonts-utils
+Vcs-Git: https://salsa.debian.org/xorg-team/font/xfonts-utils
+Directory: pool/main/x/xfonts-utils
+Package-List:
+ xfonts-utils deb x11 optional arch=any
+Checksums-Sha256:
+ 16778227083df129ae04d7dbaaf5b61d8e35bfa4e7da13ca0dd957b36b707062 1856 xfonts-utils_7.7+6build2.dsc
+ afc12fd9c2719b3544d8b3d71415060062dc271b1f26589f2c00698b58ca886e 846921 xfonts-utils_7.7+6build2.tar.gz
+
+Package: xfsprogs
+Format: 3.0 (quilt)
+Binary: xfsprogs, xfslibs-dev, xfsprogs-udeb
+Architecture: linux-any
+Version: 5.13.0-1ubuntu2
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: XFS Development Team <linux-xfs@vger.kernel.org>
+Uploaders: Nathan Scott <nathans@debian.org>, Anibal Monsalve Salazar <anibal@debian.org>, Bastian Germann <bastiangermann@fishpost.de>
+Standards-Version: 4.0.0
+Build-Depends: libinih-dev (>= 53), uuid-dev, dh-autoreconf, debhelper (>= 5), gettext, libtool, libedit-dev, libblkid-dev (>= 2.17), linux-libc-dev, libdevmapper-dev, libattr1-dev, libicu-dev, pkg-config
+Homepage: https://xfs.wiki.kernel.org/
+Directory: pool/main/x/xfsprogs
+Package-List:
+ xfslibs-dev deb libdevel optional arch=linux-any
+ xfsprogs deb admin optional arch=linux-any
+ xfsprogs-udeb udeb debian-installer optional arch=linux-any
+Checksums-Sha256:
+ 272accfc9384ff83241a91362ed3ab99e82fb8631833c7d592d1e46f0398daf8 2321 xfsprogs_5.13.0-1ubuntu2.dsc
+ 4e142d4babe086adf9016d8c606c805829da08e46389a4433f40346204f90cdb 1301112 xfsprogs_5.13.0.orig.tar.xz
+ b82f7b9b6d67fb97013783a8975179d13611a9b750d142c3ba8eff20b1dd2e18 15464 xfsprogs_5.13.0-1ubuntu2.debian.tar.xz
+
+Package: xkeyboard-config
+Format: 1.0
+Binary: xkb-data, xkb-data-udeb
+Architecture: all
+Version: 2.33-1
+Priority: important
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), meson, quilt
+Build-Depends-Indep: gettext-base, libxml-parser-perl, x11-xkb-utils, libglib2.0-dev, xsltproc, xutils-dev (>= 1:7.6+2)
+Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
+Vcs-Browser: https://salsa.debian.org/xorg-team/data/xkeyboard-config
+Vcs-Git: https://salsa.debian.org/xorg-team/data/xkeyboard-config.git
+Directory: pool/main/x/xkeyboard-config
+Package-List:
+ xkb-data deb x11 optional arch=all
+ xkb-data-udeb udeb debian-installer optional arch=all
+Checksums-Sha256:
+ 587946102b895549027a703e6e3be88dfe0145a08e5c91a4b43d815693ae0546 2390 xkeyboard-config_2.33-1.dsc
+ 112df68e1150e8da421bc0abe79eebeacca16a91e54e1877cb39fc878d17b365 2733864 xkeyboard-config_2.33.orig.tar.gz
+ 6d76726d8121764d6778643701241aacf059de96cdadeb0d8abf1105df288729 488 xkeyboard-config_2.33.orig.tar.gz.asc
+ 8b73a48b1caee84be02eb42543d9f4d6efc7b5e3046408c035e11e20485f349e 913399 xkeyboard-config_2.33-1.diff.gz
+
+Package: xml-core
+Format: 3.0 (native)
+Binary: xml-core
+Architecture: all
+Version: 0.18+nmu1
+Priority: optional
+Section: text
+Maintainer: Debian XML-SGML group <debian-sgml@lists.debian.org>
+Uploaders: Joseph Herlant <aerostitch@debian.org>
+Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl
+Vcs-Browser: https://salsa.debian.org/xml-sgml-team/xml-core
+Vcs-Git: https://salsa.debian.org/xml-sgml-team/xml-core.git
+Directory: pool/main/x/xml-core
+Package-List:
+ xml-core deb text optional arch=all
+Checksums-Sha256:
+ 3b4bc034193f99750141611ae1c836c6b742c88ed0af1420051f3fcae30bf5ae 1632 xml-core_0.18+nmu1.dsc
+ 3e07592404b8ac38924fb650227cf5c9dcfc9933bd632eb4430635cd54898471 21312 xml-core_0.18+nmu1.tar.xz
+
+Package: xorg-docs
+Format: 1.0
+Binary: xorg-docs-core, xorg-docs
+Architecture: all
+Version: 1:1.7.1-1.2
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), dh-autoreconf, quilt, pkg-config, xorg-sgml-doctools (>= 1:1.8), docbook-xml, automake, autoconf, xutils-dev (>= 1:7.6+2), xmlto (>= 0.0.22), fop, w3m
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/doc/xorg-docs.git
+Vcs-Git: git://anonscm.debian.org/git/pkg-xorg/doc/xorg-docs
+Directory: pool/main/x/xorg-docs
+Package-List:
+ xorg-docs deb doc optional arch=all
+ xorg-docs-core deb doc optional arch=all
+Checksums-Sha256:
+ 18e6b7b6031a86d4cb87715accf935a8c6b1468b99933c9ac76b14f0708b8946 2015 xorg-docs_1.7.1-1.2.dsc
+ 360707db2ba48f6deeb53d570deca9fa98218af48ead4a726a67f63e3ef63816 499355 xorg-docs_1.7.1.orig.tar.gz
+ 6610cc936c174ce4934ec00183feda0143b8adb0ab360395524b9c8f4a09f73e 13228 xorg-docs_1.7.1-1.2.diff.gz
+
+Package: xorg-sgml-doctools
+Format: 1.0
+Binary: xorg-sgml-doctools
+Architecture: all
+Version: 1:1.11-1.1
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Cyril Brulebois <kibi@debian.org>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 8), dh-autoreconf, quilt, pkg-config, xutils-dev (>= 1:7.5+4)
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/doc/xorg-sgml-doctools.git
+Vcs-Git: git://git.debian.org/git/pkg-xorg/doc/xorg-sgml-doctools
+Directory: pool/main/x/xorg-sgml-doctools
+Package-List:
+ xorg-sgml-doctools deb x11 optional arch=all
+Checksums-Sha256:
+ 6aac68e597386c10b02646d2026a833d301749a938701f4ca8efd4d19ad34295 1987 xorg-sgml-doctools_1.11-1.1.dsc
+ 986326d7b4dd2ad298f61d8d41fe3929ac6191c6000d6d7e47a8ffc0c34e7426 150367 xorg-sgml-doctools_1.11.orig.tar.gz
+ 0c11e15d4f9aaacd38452a6a37d064f1a07058dcead7ab1e2aca223ec0a94d11 3296 xorg-sgml-doctools_1.11-1.1.diff.gz
+
+Package: xorg-server
+Format: 1.0
+Binary: xserver-xorg-core, xserver-xorg-core-udeb, xserver-xorg-dev, xnest, xvfb, xserver-xephyr, xserver-common, xorg-server-source, xserver-xorg-legacy
+Architecture: any all
+Version: 2:21.1.3-2ubuntu2
+Priority: optional
+Section: x11
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper-compat (= 12), po-debconf, quilt, pkg-config, bison, flex, xauth, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-dev (>= 2021.5), xtrans-dev (>= 1.3.5), libxau-dev (>= 1:1.0.5-2), libxcvt-dev, libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:2.0.1), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.27.2), libpciaccess-dev (>= 0.12.901), libgcrypt-dev, nettle-dev, libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], libdrm-dev (>= 2.4.107-5~) [!hurd-i386], libgl1-mesa-dev (>= 9.2), mesa-common-dev, libunwind-dev [amd64 arm64 armel armhf hppa i386 ia64 mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el sh4], libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 2:1.6), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.8), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, libxshmfence-dev (>= 1.1) [!hurd-i386], libepoxy-dev (>= 1.5.4) [linux-any kfreebsd-any], libegl1-mesa-dev [linux-any kfreebsd-any], libgbm-dev (>= 10.2) [linux-any kfreebsd-any], libx11-xcb-dev, libxcb1-dev, libxcb-xkb-dev, libxcb-shape0-dev, libxcb-render0-dev, libxcb-render-util0-dev, libxcb-util0-dev, libxcb-image0-dev, libxcb-icccm4-dev, libxcb-shm0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-xv0-dev, libxcb-glx0-dev, libxcb-xf86dri0-dev (>= 1.6), xkb-data, x11-xkb-utils, libbsd-dev, libdbus-1-dev (>= 1.0) [linux-any], libsystemd-dev [linux-any], libffi-dev
+Build-Depends-Indep: xz-utils
+Homepage: https://www.x.org/
+Vcs-Browser: https://salsa.debian.org/xorg-team/xserver/xorg-server
+Vcs-Git: https://salsa.debian.org/xorg-team/xserver/xorg-server.git
+Directory: pool/main/x/xorg-server
+Package-List:
+ xnest deb x11 optional arch=any
+ xorg-server-source deb x11 optional arch=all
+ xserver-common deb x11 optional arch=all
+ xserver-xephyr deb x11 optional arch=any
+ xserver-xorg-core deb x11 optional arch=any
+ xserver-xorg-core-udeb udeb debian-installer optional arch=any profile=!noudeb
+ xserver-xorg-dev deb x11 optional arch=any
+ xserver-xorg-legacy deb x11 optional arch=any
+ xvfb deb x11 optional arch=any
+Checksums-Sha256:
+ 9173db65ba9552e9036ec9a9ca033ce1eb600cb0521793fe9b9f7b041f4c43fb 4344 xorg-server_21.1.3-2ubuntu2.dsc
+ c52403a66935092da86a18052ffdcb93a2762a146901f63c1261744a708b12e2 8942053 xorg-server_21.1.3.orig.tar.gz
+ 1fde0c2e0684b66dd84b356671d24492f842741aa16bc9498887824266e0a4be 488 xorg-server_21.1.3.orig.tar.gz.asc
+ 32f5e095fce9c537ecc18383564d8743bdceaece1105fccdff93776c254ca200 226833 xorg-server_21.1.3-2ubuntu2.diff.gz
+
+Package: xtrans
+Format: 1.0
+Binary: xtrans-dev
+Architecture: all
+Version: 1.4.0-1
+Priority: optional
+Section: x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Cyril Brulebois <kibi@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), quilt, automake, xutils-dev (>= 1:7.6+2), pkg-config, xmlto (>= 0.0.22), xorg-sgml-doctools (>= 1:1.8), w3m
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/xtrans
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/xtrans.git
+Directory: pool/main/x/xtrans
+Package-List:
+ xtrans-dev deb x11 optional arch=all
+Checksums-Sha256:
+ dd74ab9199e8f45215b566a9317cac7953bf063ce6893c185eccaf0fb4d84d8f 1919 xtrans_1.4.0-1.dsc
+ 48ed850ce772fef1b44ca23639b0a57e38884045ed2cbb18ab137ef33ec713f9 225941 xtrans_1.4.0.orig.tar.gz
+ 0dac18165654d79e0796b80fab4c1104998d29e6d0b098af0426a1d72399521e 9522 xtrans_1.4.0-1.diff.gz
+
+Package: yaru-theme
+Format: 3.0 (native)
+Binary: yaru-theme-gnome-shell, yaru-theme-gtk, yaru-theme-icon, yaru-theme-sound, yaru-theme-unity
+Architecture: all
+Version: 22.04.4
+Priority: optional
+Section: misc
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Standards-Version: 4.1.5
+Build-Depends: debhelper-compat (= 13), dh-migrations
+Build-Depends-Indep: libglib2.0-dev, meson (>= 0.59), sassc
+Homepage: https://community.ubuntu.com/c/desktop/theme-refresh
+Vcs-Browser: https://github.com/ubuntu/yaru
+Vcs-Git: https://github.com/ubuntu/yaru.git
+Directory: pool/main/y/yaru-theme
+Package-List:
+ yaru-theme-gnome-shell deb misc optional arch=all
+ yaru-theme-gtk deb misc optional arch=all
+ yaru-theme-icon deb misc optional arch=all
+ yaru-theme-sound deb misc optional arch=all
+ yaru-theme-unity deb misc optional arch=all
+Checksums-Sha256:
+ 6fa7a30d7444b087d826651f01e79634e57bae8791b39845dbbb2fdca7cc7392 1944 yaru-theme_22.04.4.dsc
+ 90ca5e71737f04225e9b64c73d5ea07f1eade3f665293ccbcf4edb4e66ad4a8d 47325292 yaru-theme_22.04.4.tar.xz
+
+Package: yelp-xsl
+Format: 3.0 (quilt)
+Binary: yelp-xsl
+Architecture: all
+Version: 42.0-1
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@ubuntu.com>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>, Sebastien Bacher <seb128@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-gnome, ducktype, pkg-config, libxml2-dev, libxml2-utils, libxslt1-dev, xsltproc, itstool (>= 1.2.0)
+Homepage: https://wiki.gnome.org/Apps/Yelp
+Vcs-Browser: https://salsa.debian.org/gnome-team/yelp-xsl
+Vcs-Git: https://salsa.debian.org/gnome-team/yelp-xsl.git
+Directory: pool/main/y/yelp-xsl
+Package-List:
+ yelp-xsl deb gnome optional arch=all
+Checksums-Sha256:
+ 94bdb3ae60a20fc2ca2025fdca8c581259f6da48f924742322e3c487fddee9b3 2121 yelp-xsl_42.0-1.dsc
+ ed7f3d336f39dca0b5a861004ec1a16f5be81201ab8de5eecbc8d620671109f0 652216 yelp-xsl_42.0.orig.tar.xz
+ b73036b57b9aa1762c6de2e8be3c0a47c29378f34687aee59d0a4116a9011e7b 4844 yelp-xsl_42.0-1.debian.tar.xz
+
+Package: zerofree
+Format: 3.0 (quilt)
+Binary: zerofree
+Architecture: any
+Version: 1.1.1-1build3
+Priority: extra
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Thibaut Paumard <thibaut@debian.org>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 9), e2fslibs-dev, docbook-to-man
+Homepage: https://frippery.org/uml/
+Vcs-Browser: https://salsa.debian.org/debian/zerofree
+Vcs-Git: https://salsa.debian.org/debian/zerofree.git
+Directory: pool/main/z/zerofree
+Package-List:
+ zerofree deb admin optional arch=any
+Checksums-Sha256:
+ faff0df45fcb972b8d2112635412b25477c98f20febb729dc0f48d2fc37dfaa2 1965 zerofree_1.1.1-1build3.dsc
+ 956bc861b55ba0a2b7593c58d32339dab1a0e7da6ea2b813d27c80f08b723867 8710 zerofree_1.1.1.orig.tar.gz
+ 128b693605217323866e459d8d505b2d909355f7cafbf883cb970a11952570e6 5308 zerofree_1.1.1-1build3.debian.tar.xz
+
+Package: zip
+Format: 3.0 (quilt)
+Binary: zip
+Architecture: any
+Version: 3.0-12build2
+Priority: optional
+Section: utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), libbz2-dev
+Homepage: http://www.info-zip.org/Zip.html
+Directory: pool/main/z/zip
+Package-List:
+ zip deb utils optional arch=any
+Checksums-Sha256:
+ 3e0ef4efeb24c8bf159af9fb81148325f15209d85681d5c6381bda7a6ee5badf 1805 zip_3.0-12build2.dsc
+ f0e8bb1f9b7eb0b01285495a2699df3a4b766784c1765a8f1aeedf63c0806369 1118845 zip_3.0.orig.tar.gz
+ a838c6bb9fc67fe551ce00fb7decb7a696b5ac3b830449d0456f00611890d031 8808 zip_3.0-12build2.debian.tar.xz
+
+Package: zsh
+Format: 3.0 (quilt)
+Binary: zsh-common, zsh, zsh-doc, zsh-static, zsh-dev
+Architecture: any all
+Version: 5.8.1-1
+Priority: optional
+Section: shells
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Uploaders: Michael Prokop <mika@debian.org>, Axel Beckert <abe@debian.org>, Frank Terbeck <ft@bewatermyfriend.org>, Richard Hartmann <richih@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: bsdextrautils | bsdmainutils (<< 12~), debhelper (>= 13.4), debhelper-compat (= 13), dpkg-dev (>= 1.16.2~), groff, groff-base, libcap-dev [linux-any], libelf-dev, libgdbm-dev, libncurses-dev, libpcre3-dev
+Build-Depends-Indep: cm-super-minimal, ghostscript, texinfo (>= 5~), texlive-fonts-recommended, texlive-latex-base, texlive-latex-recommended, yodl (>= 3.08.01) | yodl (<< 3.08.00)
+Testsuite: autopkgtest
+Testsuite-Triggers: libcap-dev, libelf-dev, libgdbm-dev, libncurses-dev, libpcre3-dev
+Homepage: https://www.zsh.org/
+Vcs-Browser: https://salsa.debian.org/debian/zsh
+Vcs-Git: https://salsa.debian.org/debian/zsh.git -b debian
+Directory: pool/main/z/zsh
+Package-List:
+ zsh deb shells optional arch=any
+ zsh-common deb shells optional arch=all
+ zsh-dev deb libdevel optional arch=any
+ zsh-doc deb doc optional arch=all
+ zsh-static deb shells optional arch=any
+Checksums-Sha256:
+ c073f0040c90550f91b3373999d0e8fcd65dca539d0399ee55d21bab274ce77e 2858 zsh_5.8.1-1.dsc
+ b6973520bace600b4779200269b1e5d79e5f505ac4952058c11ad5bbf0dd9919 3200540 zsh_5.8.1.orig.tar.xz
+ 2ab4308151f87733eafcd09c88974508156136c94d1c56a0ee7b3f649c994ec6 488 zsh_5.8.1.orig.tar.xz.asc
+ 13feb0d23d32f50fd7151e08e49690ab16a05526bc4498a0c0f9f5930d3164bb 93564 zsh_5.8.1-1.debian.tar.xz
+

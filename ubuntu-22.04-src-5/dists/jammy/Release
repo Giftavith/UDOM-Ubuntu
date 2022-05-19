@@ -1,0 +1,19 @@
+Origin: Ubuntu
+Label: Ubuntu
+Suite: jammy
+Version: 22.04
+Codename: jammy
+Date: Wed, 20 Apr 2022  2:47:08 UTC
+Architectures: amd64 arm64 armhf i386 ppc64el riscv64 s390x
+Components: main restricted universe multiverse
+Description: Ubuntu Jammy 22.04
+Acquire-By-Hash: yes
+SHA256:
+ db81c2e3da123962cc0ae90a0e93e46a45ca05bba14ef3117e8bba800134f6fd    20662 main/source/Sources.gz
+ 45e426c4f23813700800510f9dbac14e351188b370d3d5cea19ac463e46198cb    77496 main/source/Sources
+ e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4       40 restricted/source/Sources.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 restricted/source/Sources
+ 64ad0f23b475c7b8f7fbb45955ec52742918cd90a1d23daf85a400d1d43bec33    18760 universe/source/Sources.gz
+ 45e81f59e9ea0f2af513e2dd2a5c821a44e814cc4f46370f2186e2b7e1b1a7ec    66482 universe/source/Sources
+ e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4       40 multiverse/source/Sources.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 multiverse/source/Sources

@@ -1,0 +1,1344 @@
+Package: texlive-extra
+Format: 3.0 (quilt)
+Binary: texlive-bibtex-extra, texlive-extra-utils, texlive-font-utils, texlive-formats-extra, texlive-plain-generic, texlive-latex-extra, texlive-fonts-extra, texlive-music, texlive-games, texlive-pstricks, texlive-publishers, texlive-humanities, texlive-science, texlive-fonts-extra-links, texlive-fonts-extra-doc, texlive-humanities-doc, texlive-latex-extra-doc, texlive-science-doc, texlive-pstricks-doc, texlive-publishers-doc
+Architecture: all
+Version: 2021.20220204-1
+Priority: optional
+Section: universe/tex
+Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>, Hilmar Preusse <hille42@web.de>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), dh-strip-nondeterminism
+Build-Depends-Indep: sharutils, tex-common (>= 6.14), findutils (>= 4.2.0), default-jdk, ant, libpdfbox-java, libcommons-logging-java
+Homepage: http://www.tug.org/texlive/
+Vcs-Browser: https://github.com/debian-tex/texlive-nonbin
+Vcs-Git: https://github.com/debian-tex/texlive-nonbin.git
+Directory: pool/universe/t/texlive-extra
+Package-List:
+ texlive-bibtex-extra deb tex optional arch=all
+ texlive-extra-utils deb tex optional arch=all
+ texlive-font-utils deb tex optional arch=all
+ texlive-fonts-extra deb fonts optional arch=all
+ texlive-fonts-extra-doc deb doc optional arch=all
+ texlive-fonts-extra-links deb tex optional arch=all
+ texlive-formats-extra deb tex optional arch=all
+ texlive-games deb tex optional arch=all
+ texlive-humanities deb tex optional arch=all
+ texlive-humanities-doc deb doc optional arch=all
+ texlive-latex-extra deb tex optional arch=all
+ texlive-latex-extra-doc deb doc optional arch=all
+ texlive-music deb tex optional arch=all
+ texlive-plain-generic deb tex optional arch=all
+ texlive-pstricks deb tex optional arch=all
+ texlive-pstricks-doc deb doc optional arch=all
+ texlive-publishers deb tex optional arch=all
+ texlive-publishers-doc deb doc optional arch=all
+ texlive-science deb tex optional arch=all
+ texlive-science-doc deb doc optional arch=all
+Checksums-Sha256:
+ 60858c136c7776d688179e499e67d6593f1d57c87546bf2507dd3ca770af7c73 3953 texlive-extra_2021.20220204-1.dsc
+ 334c5c143898e50f24a7f6706d59a3137b4513bec54393157246b54cccc14d5c 19060 texlive-extra_2021.20220204.orig-tex4ht.tar.xz
+ 99786ce0d5014023d835e32f100e06653a9e69c383fd6053e15a970fb2d3af34 2134830028 texlive-extra_2021.20220204.orig.tar.xz
+ a458f5f1463ac9f5c2454a8ff217be9b272dff160e7b6e1d84de47b3d5f44225 187328 texlive-extra_2021.20220204-1.debian.tar.xz
+
+Package: texlive-lang
+Format: 3.0 (quilt)
+Binary: texlive-lang-arabic, texlive-lang-cjk, texlive-lang-korean, texlive-lang-chinese, texlive-lang-japanese, texlive-lang-cyrillic, texlive-lang-czechslovak, texlive-lang-english, texlive-lang-european, texlive-lang-french, texlive-lang-german, texlive-lang-greek, texlive-lang-italian, texlive-lang-other, texlive-lang-polish, texlive-lang-portuguese, texlive-lang-spanish, texlive-lang-all
+Architecture: all
+Version: 2021.20220204-1
+Priority: optional
+Section: universe/tex
+Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>, Hilmar Preusse <hille42@web.de>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), dh-strip-nondeterminism
+Build-Depends-Indep: sharutils, tex-common (>= 6.14), findutils (>= 4.2.0)
+Homepage: http://www.tug.org/texlive/
+Vcs-Browser: https://github.com/debian-tex/texlive-nonbin
+Vcs-Git: https://github.com/debian-tex/texlive-nonbin.git
+Directory: pool/universe/t/texlive-lang
+Package-List:
+ texlive-lang-all deb tex optional arch=all
+ texlive-lang-arabic deb tex optional arch=all
+ texlive-lang-chinese deb tex optional arch=all
+ texlive-lang-cjk deb tex optional arch=all
+ texlive-lang-cyrillic deb tex optional arch=all
+ texlive-lang-czechslovak deb tex optional arch=all
+ texlive-lang-english deb tex optional arch=all
+ texlive-lang-european deb tex optional arch=all
+ texlive-lang-french deb tex optional arch=all
+ texlive-lang-german deb tex optional arch=all
+ texlive-lang-greek deb tex optional arch=all
+ texlive-lang-italian deb tex optional arch=all
+ texlive-lang-japanese deb tex optional arch=all
+ texlive-lang-korean deb tex optional arch=all
+ texlive-lang-other deb tex optional arch=all
+ texlive-lang-polish deb tex optional arch=all
+ texlive-lang-portuguese deb tex optional arch=all
+ texlive-lang-spanish deb tex optional arch=all
+Checksums-Sha256:
+ 090cafa48c65c6c4f9e99f6db80d1e987344437910f5e20186ed79b6844d0b00 3456 texlive-lang_2021.20220204-1.dsc
+ cf7fbba659eae5f8ebc91019ace2f5652562a5683cb7e34e4cd5f48430656e2b 622049048 texlive-lang_2021.20220204.orig.tar.xz
+ 7fd0b67d8b716b6090459b9077f41a5f43bf020fd51c581935836099453cf85c 96288 texlive-lang_2021.20220204-1.debian.tar.xz
+
+Package: timgm6mb-soundfont
+Format: 3.0 (quilt)
+Binary: timgm6mb-soundfont
+Architecture: all
+Version: 1.3-5
+Priority: optional
+Section: universe/misc
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Toby Smithe <tsmithe@ubuntu.com>, Tiago Bortoletto Vaz <tiago@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: debhelper-compat (= 12)
+Homepage: https://timbrechbill.com/saxguru/Timidity.php
+Vcs-Browser: https://salsa.debian.org/multimedia-team/timgm6mb-soundfont
+Vcs-Git: https://salsa.debian.org/multimedia-team/timgm6mb-soundfont.git
+Directory: pool/universe/t/timgm6mb-soundfont
+Package-List:
+ timgm6mb-soundfont deb sound optional arch=all
+Checksums-Sha256:
+ e5df6847285db192536358460d70d62963b58a278832b2d17f67b62293351e30 2111 timgm6mb-soundfont_1.3-5.dsc
+ af8f3a00e416dfb262bcaa904a1c84df04a51b72bbc1313aed012bc754bdf99b 5560953 timgm6mb-soundfont_1.3.orig.tar.gz
+ 993893c5b6265a3f7972a38d055d450d08873d097a2a2c41b010bd1858cc068c 12960 timgm6mb-soundfont_1.3-5.debian.tar.xz
+
+Package: tipa
+Format: 3.0 (quilt)
+Binary: tipa, xfonts-tipa, tipa-doc
+Architecture: all
+Version: 2:1.3-21
+Priority: optional
+Section: universe/tex
+Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
+Uploaders: Daniele Tricoli <eriol@mornie.org>, Norbert Preining <preining@debian.org>, Hilmar Preusse <hille42@web.de>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: tex-common (>= 3), texlive-latex-recommended, texlive-fonts-recommended, ghostscript, sharutils
+Homepage: https://www.ctan.org/tex-archive/fonts/tipa/
+Vcs-Browser: https://salsa.debian.org/tex-team/tipa
+Vcs-Git: https://salsa.debian.org/tex-team/tipa.git
+Directory: pool/universe/t/tipa
+Package-List:
+ tipa deb tex optional arch=all
+ tipa-doc deb doc optional arch=all
+ xfonts-tipa deb fonts optional arch=all
+Checksums-Sha256:
+ aaa755f3f5b7f82162a3985b872a72cd55f947a75ca5b06015716e9e64cb62c1 2279 tipa_1.3-21.dsc
+ 3529efa30599785afa1709154d72b06327d7abc84fd97a566a5f34d6ba8e3ae0 7725685 tipa_1.3.orig.tar.gz
+ 5414fb0d7b78d750c41a7b29e68598c00ed364208e87f6f8ef0d9ee6708eaebe 11996 tipa_1.3-21.debian.tar.xz
+
+Package: tofrodos
+Format: 3.0 (quilt)
+Binary: tofrodos
+Architecture: any
+Version: 1.7.13+ds-5
+Priority: optional
+Section: universe/utils
+Maintainer: Markus Koschany <apo@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Homepage: http://www.thefreecountry.com/tofrodos/index.shtml
+Vcs-Browser: https://salsa.debian.org/debian/tofrodos
+Vcs-Git: https://salsa.debian.org/debian/tofrodos.git
+Directory: pool/universe/t/tofrodos
+Package-List:
+ tofrodos deb utils optional arch=any
+Checksums-Sha256:
+ 68f0b519f6626bf03a52d042976148d3e2b491940a3d27c1ae28ef5f57ab6a20 2013 tofrodos_1.7.13+ds-5.dsc
+ c1c33f3f0b9e8152aa5790d233e8f1e8de14510433a6143ec582eba0fb6cbfaa 31972 tofrodos_1.7.13+ds.orig.tar.xz
+ b0def1c6e97cf9de7ed676a168b61c5dbfd681487eea32e88d55a5e41a5fea67 5748 tofrodos_1.7.13+ds-5.debian.tar.xz
+
+Package: tox
+Format: 3.0 (quilt)
+Binary: tox
+Architecture: all
+Version: 3.21.4-1ubuntu1
+Priority: optional
+Section: universe/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Faidon Liambotis <paravoid@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-filelock, python3-packaging, python3-pip, python3-pluggy (>= 0.12.0-1~), python3-py, python3-setuptools, python3-six, python3-sphinx (>= 2.0.0-1~), python3-sphinxcontrib.autoprogram, python3-toml, python3-virtualenv
+Testsuite: autopkgtest
+Testsuite-Triggers: python3
+Homepage: https://tox.readthedocs.io/
+Vcs-Browser: https://salsa.debian.org/python-team/packages/tox
+Vcs-Git: https://salsa.debian.org/python-team/packages/tox.git
+Directory: pool/universe/t/tox
+Package-List:
+ tox deb python optional arch=all
+Checksums-Sha256:
+ 41abfc85b455f8acbadbc0a1de4b47a281a720747777f0cc5b504244f9001962 2271 tox_3.21.4-1ubuntu1.dsc
+ cf7fef81a3a2434df4d7af2a6d1bf606d2970220addfbe7dea2615bd4bb2c252 311500 tox_3.21.4.orig.tar.gz
+ 924d046315d20b28d4a0973273cbe32518c72f4f43133aa31d9909932db124fc 9984 tox_3.21.4-1ubuntu1.debian.tar.xz
+
+Package: triehash
+Format: 3.0 (quilt)
+Binary: triehash
+Architecture: all
+Version: 0.3-3
+Priority: optional
+Section: universe/misc
+Maintainer: Julian Andres Klode <jak@debian.org>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 11)
+Homepage: https://github.com/julian-klode/triehash
+Vcs-Browser: https://github.com/julian-klode/triehash
+Vcs-Git: https://github.com/julian-klode/triehash -b debian/master
+Directory: pool/universe/t/triehash
+Package-List:
+ triehash deb devel optional arch=all
+Checksums-Sha256:
+ bf5c488cbeb5ea6c87b75e502138bd9ad026f6f590ab8269b5f82f653ad70159 1842 triehash_0.3-3.dsc
+ 289a0966c02c2008cd263d3913a8e3c84c97b8ded3e08373d63a382c71d2199c 14059 triehash_0.3.orig.tar.gz
+ d74d8e16b59654d36db165cf729b152f55f50570e78d3694a59b7ca121d5634c 2092 triehash_0.3-3.debian.tar.xz
+
+Package: ts-node
+Format: 3.0 (quilt)
+Binary: ts-node
+Architecture: all
+Version: 9.1.1-6
+Priority: optional
+Section: universe/misc
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, chai, mocha <!nocheck>, node-arg <!nocheck>, node-axios <!nocheck>, node-call-bind <!nocheck>, node-create-require <!nocheck>, node-es-abstract <!nocheck>, node-get-intrinsic <!nocheck>, node-get-stream, node-is-regex <!nocheck>, node-json-stable-stringify, node-make-error <!nocheck>, node-object.getownpropertydescriptors <!nocheck>, node-proxyquire <!nocheck>, node-react <!nocheck>, node-rimraf <!nocheck>, node-semver, node-source-map-support <!nocheck>, node-typescript, node-util.promisify <!nocheck>, node-yn <!nocheck>
+Testsuite: autopkgtest-pkg-nodejs
+Homepage: https://github.com/TypeStrong/ts-node
+Vcs-Browser: https://salsa.debian.org/js-team/ts-node
+Vcs-Git: https://salsa.debian.org/js-team/ts-node.git
+Directory: pool/universe/t/ts-node
+Package-List:
+ ts-node deb javascript optional arch=all
+Checksums-Sha256:
+ 144958b2d27bca93ba7dccb7699395a8c3983d02b0a3c14880c1ff73bcd090c2 2494 ts-node_9.1.1-6.dsc
+ 93ac9c688a66c14f3dc696861e33eddf33d7b824a34d8af16540b219ebcc8850 198768 ts-node_9.1.1.orig.tar.gz
+ 0b9fff1969e8497a8805ed74ac57b36a2de536d69343f7e36ab02a3fcfa2ac2b 44068 ts-node_9.1.1-6.debian.tar.xz
+
+Package: ttf-bitstream-vera
+Format: 3.0 (quilt)
+Binary: ttf-bitstream-vera
+Architecture: all
+Version: 1.10-8.2
+Priority: optional
+Section: universe/fonts
+Maintainer: Keith Packard <keithp@keithp.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://salsa.debian.org/debian/ttf-bitstream-vera
+Vcs-Git: https://salsa.debian.org/debian/ttf-bistream-vera.git
+Directory: pool/universe/t/ttf-bitstream-vera
+Package-List:
+ ttf-bitstream-vera deb fonts optional arch=all
+Checksums-Sha256:
+ 3a1c8a6140fdb960595bd329342556c69d6e039e6f958d1416eed6a97aaec359 1282 ttf-bitstream-vera_1.10-8.2.dsc
+ 3a84126ce11ef404d1453438e35450b9e0838220d262059e56cd8496ac6f5d15 350465 ttf-bitstream-vera_1.10.orig.tar.gz
+ 4246566b357018855f41839c60f867cf40daa5fbe4e789d26244371ddf8f85da 5436 ttf-bitstream-vera_1.10-8.2.debian.tar.xz
+
+Package: txt2html
+Format: 3.0 (quilt)
+Binary: txt2html
+Architecture: all
+Version: 1:2.53-3
+Priority: optional
+Section: universe/text
+Maintainer: Varun Hiremath <varun@debian.org>
+Uploaders: Joao Eriberto Mota Filho <eriberto@debian.org>, Ola Lundqvist <opal@debian.org>, Torsten Werner <twerner@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: libgetopt-argvfile-perl, libtest-distribution-perl, libyaml-syck-perl, perl (>= 5.6.0-16)
+Testsuite: autopkgtest
+Testsuite-Triggers: debhelper, libmodule-build-perl
+Homepage: https://github.com/resurrecting-open-source-projects/txt2html
+Vcs-Browser: https://salsa.debian.org/debian/txt2html
+Vcs-Git: https://salsa.debian.org/debian/txt2html.git
+Directory: pool/universe/t/txt2html
+Package-List:
+ txt2html deb text optional arch=all
+Checksums-Sha256:
+ 48edfe92a6a74563c27411e7a833f44a0a187c4ad6701011026485dfb0f1569e 2179 txt2html_2.53-3.dsc
+ f7adeb65f50e6687fbd1740dbe25bf92affec36021fe06d8bd2cf7f9984f072f 134419 txt2html_2.53.orig.tar.gz
+ 4503f4bb60061e40ab32744971da9c1a8a73969bee03f3237d5994f6f1194198 4456 txt2html_2.53-3.debian.tar.xz
+
+Package: txt2man
+Format: 3.0 (quilt)
+Binary: txt2man
+Architecture: all
+Version: 1.7.1-2
+Priority: optional
+Section: universe/text
+Maintainer: Joao Eriberto Mota Filho <eriberto@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), gawk
+Testsuite: autopkgtest
+Testsuite-Triggers: ghostscript, groff, man-db
+Homepage: https://github.com/mvertes/txt2man
+Vcs-Browser: https://salsa.debian.org/debian/txt2man
+Vcs-Git: https://salsa.debian.org/debian/txt2man.git
+Directory: pool/universe/t/txt2man
+Package-List:
+ txt2man deb text optional arch=all
+Checksums-Sha256:
+ f21cf37b43871625fae6229a133b336cb7d7706dc832be7fac53a598fefbd7be 1899 txt2man_1.7.1-2.dsc
+ 4d9b1bfa2b7a5265b4e5cb3aebc1078323b029aa961b6836d8f96aba6a9e434d 15976 txt2man_1.7.1.orig.tar.gz
+ 04eaae665dd839362e7fc69142017b44f441fc6311e240d52751f67a7fc48e2f 26352 txt2man_1.7.1-2.debian.tar.xz
+
+Package: node-ts-jest
+Format: 3.0 (quilt)
+Binary: ts-jest
+Architecture: all
+Version: 27.1.3+~cs0.2.6-1
+Priority: optional
+Section: universe/misc
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs (>= 0.9.61), help2man, jest (>= 27), node-ansi-regex <!nocheck>, node-ansi-styles <!nocheck>, node-babel7 <!nocheck>, node-base <!nocheck>, node-braces <!nocheck>, node-chalk <!nocheck>, node-color-convert <!nocheck>, node-color-name <!nocheck>, node-convert-source-map <!nocheck>, node-debug <!nocheck>, node-escape-string-regexp <!nocheck>, node-esbuild <!nocheck>, node-esutils <!nocheck>, node-fast-json-stable-stringify, node-fill-range <!nocheck>, node-fs-extra, node-has-flag <!nocheck>, node-is-number <!nocheck>, node-istanbul <!nocheck>, node-js-yaml <!nocheck>, node-jest-debbundle (>= 27) <!nocheck>, node-jest-snapshot-serializer-raw, node-json-stable-stringify <!nocheck>, node-json5, node-lodash, node-make-error, node-mkdirp (>= 1.0), node-react <!nocheck>, node-semver (>= 7.0), node-types-babel-core, node-types-lodash, node-types-react, node-typescript, node-yargs, node-yargs-parser
+Testsuite: autopkgtest-pkg-nodejs
+Homepage: https://kulshekhar.github.io/ts-jest
+Vcs-Browser: https://salsa.debian.org/js-team/node-ts-jest
+Vcs-Git: https://salsa.debian.org/js-team/node-ts-jest.git
+Directory: pool/universe/n/node-ts-jest
+Package-List:
+ ts-jest deb javascript optional arch=all
+Checksums-Sha256:
+ 931e6de62d60cafbd0a521cb0080bcb14ec6a52eb6ab8455616147f6c0bea635 3288 node-ts-jest_27.1.3+~cs0.2.6-1.dsc
+ 35519c4ea9fefac37615fa42bf7e7095830a22165bf1c6005b09c1a75835c1f9 85343 node-ts-jest_27.1.3+~cs0.2.6.orig-bs-logger.tar.gz
+ aae9562bf9f55079950444783a79f5a870d0b0cc62e58c1fd7cdf201288670f7 1394512 node-ts-jest_27.1.3+~cs0.2.6.orig.tar.gz
+ e2781ab863fc01b374b700b401e4fb9f75d69ccaa53a469243954d3885674f4a 11692 node-ts-jest_27.1.3+~cs0.2.6-1.debian.tar.xz
+
+Package: node-uvu
+Format: 3.0 (quilt)
+Binary: uvu
+Architecture: all
+Version: 0.5.3+~cs4.10.3-4
+Priority: optional
+Section: universe/misc
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs (>= 0.12.3~), bundt, jdupes, help2man, node-diff <!nocheck>, node-kleur <!nocheck>, rollup, terser
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Homepage: https://github.com/lukeed/uvu#readme
+Vcs-Browser: https://salsa.debian.org/js-team/node-uvu
+Vcs-Git: https://salsa.debian.org/js-team/node-uvu.git
+Directory: pool/universe/n/node-uvu
+Package-List:
+ uvu deb javascript optional arch=all
+Checksums-Sha256:
+ 7aadba692a4fcf011dd179a2ba2a2267410cb1e0db8d85f1b35e4c6ffe4b998f 2992 node-uvu_0.5.3+~cs4.10.3-4.dsc
+ 937882e00fbdc9878dfa669a8f02e752c5b2c37212a3985cdcb1a476947f3558 8068 node-uvu_0.5.3+~cs4.10.3.orig-dequal.tar.gz
+ 38cad51b93e128df109d8b33f42612cba34a02648c4799eebcf4a438876937f9 7667 node-uvu_0.5.3+~cs4.10.3.orig-mri.tar.gz
+ 74a54eb558aec08b96a6d750c5c126469dd4e497bc31112853ce5faaab6b79b3 22749 node-uvu_0.5.3+~cs4.10.3.orig-sade.tar.gz
+ aa477e7f007a73e7e9611d6c95b5730948402eb4864b90fba23c7f6bb5f1fc9b 133695 node-uvu_0.5.3+~cs4.10.3.orig.tar.gz
+ 250e0bac47db51291471dbdfb428f29dc5fa671e850642b01b363d077a175802 81508 node-uvu_0.5.3+~cs4.10.3-4.debian.tar.xz
+
+Package: node-webpack
+Format: 3.0 (quilt)
+Binary: webpack
+Architecture: all
+Version: 4.43.0-7
+Priority: optional
+Section: universe/misc
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), nodejs, dh-sequence-nodejs, node-sinon <!nocheck>, node-acorn (>= 6.0~) <!nocheck>, node-ajv (>= 6.1~) <!nocheck>, node-ajv-keywords (>= 3.1~) <!nocheck>, node-chrome-trace-event <!nocheck>, node-enhanced-resolve (>= 4.0~) <!nocheck>, node-loader-runner <!nocheck>, node-loader-utils (>= 1.1~) <!nocheck>, node-memory-fs <!nocheck>, node-micromatch <!nocheck>, node-mkdirp (>= 1) <!nocheck>, node-neo-async <!nocheck>, node-libs-browser <!nocheck>, node-schema-utils (>= 3.0.0~) <!nocheck>, node-tapable (>= 1.0~) <!nocheck>, node-uglifyjs-webpack-plugin (>= 1.3.0-4~) <!nocheck>, node-watchpack (>= 1.4~) <!nocheck>, node-webpack-sources <!nocheck>, node-resolve-cwd <!nocheck>, node-interpret <!nocheck>, node-findup-sync <!nocheck>, node-supports-color <!nocheck>, node-yargs <!nocheck>, node-estraverse <!nocheck>, node-esrecurse <!nocheck>
+Testsuite: autopkgtest-pkg-nodejs
+Homepage: https://github.com/webpack/webpack
+Vcs-Browser: https://salsa.debian.org/js-team/node-webpack
+Vcs-Git: https://salsa.debian.org/js-team/node-webpack.git
+Directory: pool/universe/n/node-webpack
+Package-List:
+ webpack deb javascript optional arch=all
+Checksums-Sha256:
+ b111f74959bd9d68bb52b7fe12e827b73544b50f533fe08f70957588ce3e0535 4026 node-webpack_4.43.0-7.dsc
+ 84dbae8ca237ec71ec0fad68d13c701a4f9606f1cd1b30cfd907ae9b66b28610 15756 node-webpack_4.43.0.orig-eslint-scope.tar.gz
+ b5e3560fb481f83a37452a462fee8a9ec99772c52f27d44290f496a2b6c65f8d 1943 node-webpack_4.43.0.orig-import-local.tar.gz
+ ed8ab05d0c9462c71f364f9cda18c48d55ad6274dc2f62f891f940a26f0c8772 5733 node-webpack_4.43.0.orig-v8-compile-cache.tar.gz
+ 94dee69fdf306398b02bbf1f510278f5cb6420a5fd5124ead85a607dce44e610 41929 node-webpack_4.43.0.orig-webpack-cli.tar.gz
+ efeb909872f1693e52d6ffa414c52d6095ace7893490733a81e5e76deb9ae83b 924514 node-webpack_4.43.0.orig.tar.gz
+ 0369682b2330b8f2c716e4a63c0f9718e14cf6dafb37db422dceab6a94216b81 25872 node-webpack_4.43.0-7.debian.tar.xz
+
+Package: node-yarnpkg
+Format: 3.0 (quilt)
+Binary: yarnpkg
+Architecture: all
+Version: 1.22.10+~cs22.25.14-8
+Priority: optional
+Section: universe/misc
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, gulp (>= 4), node-asap, node-babel-eslint, node-babel-loader (>= 8.0~), node-babel7, node-browserify-zlib, node-builtin-modules, node-bytes, node-ci-info, node-cli-table, node-death, node-deep-equal, node-detect-indent, node-emoji, node-execa, node-fancy-log, node-fast-levenshtein, node-gulp-babel (>= 8.0~), node-gulp-newer, node-gulp-plumber, node-gulp-sourcemaps, node-gulp-util, node-inquirer, node-invariant, node-is-builtin-module, node-js-yaml (>= 3.13.1), node-loader-utils, node-loud-rejection, node-marked-man, node-minimatch, node-object-path, node-prepend-http, node-proper-lockfile, node-puka, node-pumpify, node-read, node-request (>= 2.88.1-5~), node-request-capture-har, node-resolve (>= 1.19.0+~cs5.20.8~), node-schema-utils (>= 3.0.0), node-sort-keys, node-strict-uri-encode, node-tar-stream, node-temp, node-through2, node-uuid, node-vinyl-fs (>= 3), node-yargs, node-yn, webpack
+Testsuite: autopkgtest
+Testsuite-Triggers: socat
+Homepage: https://github.com/yarnpkg/yarn
+Vcs-Browser: https://salsa.debian.org/js-team/node-yarnpkg
+Vcs-Git: https://salsa.debian.org/js-team/node-yarnpkg.git
+Directory: pool/universe/n/node-yarnpkg
+Package-List:
+ yarnpkg deb javascript optional arch=all
+Checksums-Sha256:
+ 3040dcaca5406e7ac6addb7f43fa720fb51eafefa95a1f05dbb92acaf072fee4 8051 node-yarnpkg_1.22.10+~cs22.25.14-8.dsc
+ 0a3e427c86cd249b0b402907132bf8ba85efb2a34ed1d2b3aa4694fd21730ad6 2691 node-yarnpkg_1.22.10+~cs22.25.14.orig-decode-uri-component.tar.gz
+ 103561e61f03394439beddf57daead326ce4e76d051c200d282db13e4b1a7e9d 8550 node-yarnpkg_1.22.10+~cs22.25.14.orig-dnscache.tar.gz
+ 87e9b2228f20c9d6ada9131f7fff5f622fe575aad2cc582a0eec22489805c79e 2478 node-yarnpkg_1.22.10+~cs22.25.14.orig-gunzip-maybe.tar.gz
+ aa443d34e74869e7daee83fc118d34b967890e0590d286f52f25e996ca0f7080 16129 node-yarnpkg_1.22.10+~cs22.25.14.orig-hash-for-dep.tar.gz
+ cace6760cfa690ad7726d30d5946e8f51a8c465351e865c1cb16c5e18a6f671f 1760 node-yarnpkg_1.22.10+~cs22.25.14.orig-is-deflate.tar.gz
+ 39b88d792db813eb718a071432916187c5cb0b683094fb416c3f0a1f753bf0e4 875 node-yarnpkg_1.22.10+~cs22.25.14.orig-is-gzip.tar.gz
+ e75c65ff3196abeabdcdfe5418b70a635859885217a0090c58d3d2a1bb57b3a3 2180 node-yarnpkg_1.22.10+~cs22.25.14.orig-mkdirp-classic.tar.gz
+ f600e8b835fca729cf6e58ca99e332fc4b55b6ddf9dd580596de7ddc24b4f9c0 3502 node-yarnpkg_1.22.10+~cs22.25.14.orig-normalize-url.tar.gz
+ 3fa1e4e9679669cd6dc0220e1f56e7bd4e30a056bcf22cc2046d729a8a82bd44 4799 node-yarnpkg_1.22.10+~cs22.25.14.orig-npm-logical-tree.tar.gz
+ 39ab45393249aa4d1576c60e5fff10bb1e9b168f0a1b6ed47ad58245c707c1a3 3004 node-yarnpkg_1.22.10+~cs22.25.14.orig-peek-stream.tar.gz
+ 786050408ab2e08345c1c9da8282c27aa7197a8b7c4663cf9f14606552ef4bf0 4721 node-yarnpkg_1.22.10+~cs22.25.14.orig-query-string.tar.gz
+ a20411c03639f946a5e400351d0cf6f5b911405576b3aa93430cb32759d2c3c7 20767 node-yarnpkg_1.22.10+~cs22.25.14.orig-resolve-package-path.tar.gz
+ d554175bc81f5fd79bce3c98624729347972d00dbfa453ecdb25a25459e36e1e 3392 node-yarnpkg_1.22.10+~cs22.25.14.orig-string-replace-loader.tar.gz
+ b4ab8e3e61634b774897eeae0f011d95725f50e97e21cb18e697c4d468380fee 7408 node-yarnpkg_1.22.10+~cs22.25.14.orig-tar-fs.tar.gz
+ ba2ba2368066f58c1b996a85a39c823ef64e0f9d890c66eb4931c6fafa8e3192 5874 node-yarnpkg_1.22.10+~cs22.25.14.orig-v8-compile-cache.tar.gz
+ 66153f5fdd3078ce320c775990e4b4f03d5b596186f0e1fbceb34225abe3cd3e 74418435 node-yarnpkg_1.22.10+~cs22.25.14.orig.tar.gz
+ 2189fc3588f6e31bece05d50684db14da7ed776490a37bc36aed264086c812e4 16132 node-yarnpkg_1.22.10+~cs22.25.14-8.debian.tar.xz
+
+Package: ubuntu-cloud-keyring
+Format: 1.0
+Binary: ubuntu-cloud-keyring
+Architecture: all
+Version: 2012.08.14
+Section: universe/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.50~)
+Directory: pool/universe/u/ubuntu-cloud-keyring
+Package-List:
+ ubuntu-cloud-keyring deb misc important
+Checksums-Sha256:
+ 9b2232a5f5e5cb1537b7ae95c50e4a6911117460390824150a109817ba3fda71 895 ubuntu-cloud-keyring_2012.08.14.dsc
+ 9c6815cd7a556b216dde55c8a8fe32f2a652063084ef009bcf9b01397fee5fd9 4902 ubuntu-cloud-keyring_2012.08.14.tar.gz
+
+Package: ubuntu-kylin-docs
+Format: 3.0 (native)
+Binary: ubuntu-kylin-docs
+Architecture: all
+Version: 20.04.0
+Priority: optional
+Section: universe/doc
+Maintainer: Ubuntu Kylin Documentation Team <ubuntukylin-members@lists.launchpad.net>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: gnome-common, pkg-config, yelp-tools
+Homepage: https://github.com/ubuntukylin/ubuntu-kylin-docs
+Vcs-Browser: https://github.com/ubuntukylin/ubuntu-kylin-docs
+Vcs-Git: https://github.com/ubuntukylin/ubuntu-kylin-docs.git
+Directory: pool/universe/u/ubuntu-kylin-docs
+Package-List:
+ ubuntu-kylin-docs deb doc optional arch=all
+Checksums-Sha256:
+ bef6c089a3ab0de50116a6bb1cb73b1cf60af7b4e00cfc3aabbb4d15a86d44f2 1838 ubuntu-kylin-docs_20.04.0.dsc
+ 9335bf6713703728c162a26cfe9152379a3653d7d16544b904a79f4b10c54251 4913176 ubuntu-kylin-docs_20.04.0.tar.xz
+
+Package: ubuntu-mate-settings
+Format: 3.0 (native)
+Binary: ubuntu-mate-default-settings, ubuntu-mate-live-settings
+Architecture: all
+Version: 22.04.14
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11)
+Homepage: https://github.com/ubuntu-mate/ubuntu-mate-settings
+Vcs-Browser: https://github.com/ubuntu-mate/ubuntu-mate-settings
+Vcs-Git: https://github.com/ubuntu-mate/ubuntu-mate-settings.git
+Directory: pool/universe/u/ubuntu-mate-settings
+Package-List:
+ ubuntu-mate-default-settings deb x11 optional arch=all
+ ubuntu-mate-live-settings deb x11 optional arch=all
+Checksums-Sha256:
+ 5ab5d28440e2adbca5ae2e862da9572be2f460f7c6da57c9df67487b086ef6b3 1785 ubuntu-mate-settings_22.04.14.dsc
+ d89aa693f2eabc8b53b271467b2859f1605f12edcf19f9037f02045e5f60d6df 56984 ubuntu-mate-settings_22.04.14.tar.xz
+
+Package: ubuntu-mate-guide
+Format: 3.0 (quilt)
+Binary: ubuntu-mate-guide
+Architecture: all
+Version: 22.04.0-0ubuntu1
+Priority: optional
+Section: universe/doc
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11)
+Homepage: https://github.com/ubuntu-mate/ubuntu-mate-guide
+Vcs-Browser: https://github.com/ubuntu-mate/distro-packages
+Vcs-Git: https://github.com/ubuntu-mate/distro-packages.git
+Directory: pool/universe/u/ubuntu-mate-guide
+Package-List:
+ ubuntu-mate-guide deb doc optional arch=all
+Checksums-Sha256:
+ 9a51bf5595cfdc99301f6da2bc08bcce8df5c5d378d6242043eaad1b21109a71 1990 ubuntu-mate-guide_22.04.0-0ubuntu1.dsc
+ f85016a7295a5f784ffe28c7e23a72ab6e9cf46b1be89cec5bf101051a1eec17 10007520 ubuntu-mate-guide_22.04.0.orig.tar.gz
+ f1cab419daee5c335823e5d4dd601c7b001117ebac4d3aa323eef64cb877d1c8 7032 ubuntu-mate-guide_22.04.0-0ubuntu1.debian.tar.xz
+
+Package: ubuntu-mate-welcome
+Format: 3.0 (native)
+Binary: ubuntu-mate-welcome
+Architecture: all
+Version: 18.10.0
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11)
+Homepage: https://github.com/ubuntu-mate/ubuntu-mate-welcome-launcher
+Vcs-Browser: https://github.com/ubuntu-mate/ubuntu-mate-welcome-launcher
+Directory: pool/universe/u/ubuntu-mate-welcome
+Package-List:
+ ubuntu-mate-welcome deb x11 optional arch=all
+Checksums-Sha256:
+ 09ba240f533a58b09b9b5801c935615c28653090d2ea1bda428c949708feea31 1630 ubuntu-mate-welcome_18.10.0.dsc
+ 5b90c689e97e28d007663f0a90e37dd878edde3d32ae25855fcd1f07fd7031b3 21152 ubuntu-mate-welcome_18.10.0.tar.xz
+
+Package: ubuntu-sounds
+Format: 3.0 (native)
+Binary: ubuntu-sounds
+Architecture: all
+Version: 0.14
+Priority: optional
+Section: universe/gnome
+Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>= 11~)
+Directory: pool/universe/u/ubuntu-sounds
+Package-List:
+ ubuntu-sounds deb gnome optional arch=all
+Checksums-Sha256:
+ 7265099e54a4db6bb4458b6072ffd32f1ca5068eb005bb58c655a0feef08d950 1122 ubuntu-sounds_0.14.dsc
+ 487359b8264ee2e5562336ac34cb4f58ab99ca133a5e07de935450b69394d4f7 2319968 ubuntu-sounds_0.14.tar.xz
+
+Package: ubuntukylin-default-settings
+Format: 3.0 (native)
+Binary: ubuntukylin-default-settings
+Architecture: all
+Version: 21.10
+Priority: optional
+Section: universe/metapackages
+Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12)
+Vcs-Browser: https://github.com/UbuntuKylin/ubuntukylin-default-settings
+Vcs-Git: https://github.com/UbuntuKylin/ubuntukylin-default-settings.git
+Directory: pool/universe/u/ubuntukylin-default-settings
+Package-List:
+ ubuntukylin-default-settings deb metapackages optional arch=all
+Checksums-Sha256:
+ 9ad30b0a3430b3cc62485db5fb7802d2481d0ac7c0d139b3f7bbffbe8623a0b5 1790 ubuntukylin-default-settings_21.10.dsc
+ 710792d2e88f7e3b4bc1c50ac840a7ef017c2694a97078f0eb5f8d7777b11ae6 13648 ubuntukylin-default-settings_21.10.tar.xz
+
+Package: ubuntukylin-keyring
+Format: 3.0 (native)
+Binary: ubuntukylin-keyring
+Architecture: all
+Version: 2014.04.10
+Priority: optional
+Section: universe/misc
+Maintainer: Jing Shi <jingshi@ubuntukylin.com>
+Standards-Version: 3.9.5
+Directory: pool/universe/u/ubuntukylin-keyring
+Package-List:
+ ubuntukylin-keyring deb misc important
+Checksums-Sha256:
+ 5edcab5375a8aee1f97dd5bc977b36230ec11323d5e143fb6725a188b42bea4c 786 ubuntukylin-keyring_2014.04.10.dsc
+ 926f7a5cedf70f289e75f0f9eac0cfdef3311d64a041e71e1358e3fe0745d45b 5861 ubuntukylin-keyring_2014.04.10.tar.gz
+
+Package: ubuntukylin-theme
+Format: 3.0 (native)
+Binary: ubuntukylin-theme
+Architecture: all
+Version: 3.0.2
+Priority: extra
+Section: universe/gnome
+Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
+Standards-Version: 4.6.0.1
+Build-Depends: debhelper-compat (= 13), sass, x11-apps, meson
+Homepage: https://github.com/ukui/ubuntukylin-theme
+Vcs-Browser: https://github.com/ukui/ubuntukylin-theme
+Vcs-Git: https://github.com/ukui/ubuntukylin-theme.git
+Directory: pool/universe/u/ubuntukylin-theme
+Package-List:
+ ubuntukylin-theme deb gnome optional arch=all
+Checksums-Sha256:
+ fa709682d59ef48df42e196b61e779d05ad3da47fb2b440b560b6b735d2badca 1767 ubuntukylin-theme_3.0.2.dsc
+ e7a642aa2a023d186eebbcaa927e6990442d491543433cee6d42e0fa987b6aaa 74144508 ubuntukylin-theme_3.0.2.tar.xz
+
+Package: ubuntukylin-wallpapers
+Format: 3.0 (native)
+Binary: ubuntukylin-wallpapers, ubuntukylin-wallpapers-groovy, ubuntukylin-wallpapers-focal, ubuntukylin-wallpapers-eoan, ubuntukylin-wallpapers-disco, ubuntukylin-wallpapers-cosmic, ubuntukylin-wallpapers-bionic, ubuntukylin-wallpapers-artful, ubuntukylin-wallpapers-zesty, ubuntukylin-wallpapers-yakkety, ubuntukylin-wallpapers-xenial, ubuntukylin-wallpapers-wily, ubuntukylin-wallpapers-vivid, ubuntukylin-wallpapers-utopic, ubuntukylin-wallpapers-trusty, ubuntukylin-wallpapers-saucy
+Architecture: all
+Version: 20.10.1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Kylin Team <ubuntukylin-members@list.launchpad.net>
+Uploaders: Aron Xu <happyaron@ubuntu.com>, handsome_feng <jianfengli@ubuntukylin.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), dh-python, python3
+Build-Depends-Indep: python3-distutils-extra
+Vcs-Browser: https://github.com/ubuntukylin/ubuntukylin-wallpapers
+Vcs-Git: https://github.com/ubuntukylin/ubuntukylin-wallpapers.git
+Directory: pool/universe/u/ubuntukylin-wallpapers
+Package-List:
+ ubuntukylin-wallpapers deb metapackages optional arch=all
+ ubuntukylin-wallpapers-artful deb x11 optional arch=all
+ ubuntukylin-wallpapers-bionic deb x11 optional arch=all
+ ubuntukylin-wallpapers-cosmic deb x11 optional arch=all
+ ubuntukylin-wallpapers-disco deb x11 optional arch=all
+ ubuntukylin-wallpapers-eoan deb x11 optional arch=all
+ ubuntukylin-wallpapers-focal deb x11 optional arch=all
+ ubuntukylin-wallpapers-groovy deb x11 optional arch=all
+ ubuntukylin-wallpapers-saucy deb x11 optional arch=all
+ ubuntukylin-wallpapers-trusty deb x11 optional arch=all
+ ubuntukylin-wallpapers-utopic deb x11 optional arch=all
+ ubuntukylin-wallpapers-vivid deb x11 optional arch=all
+ ubuntukylin-wallpapers-wily deb x11 optional arch=all
+ ubuntukylin-wallpapers-xenial deb x11 optional arch=all
+ ubuntukylin-wallpapers-yakkety deb x11 optional arch=all
+ ubuntukylin-wallpapers-zesty deb x11 optional arch=all
+Checksums-Sha256:
+ 76c944d15e8c755e4f20a5e0450713baaae4aa95518d4bf5183fd7378d0438a4 3162 ubuntukylin-wallpapers_20.10.1.dsc
+ 49d33d7893278dd75880c7760967c36d35fb72d006ea2d11488e7333c47e4172 323662808 ubuntukylin-wallpapers_20.10.1.tar.xz
+
+Package: ubuntustudio-default-settings
+Format: 3.0 (native)
+Binary: ubuntustudio-default-settings, ubuntustudio-lowlatency-settings, ubuntustudio-performance-tweaks
+Architecture: all
+Version: 22.04.26
+Priority: optional
+Section: universe/gnome
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), intltool
+Homepage: https://launchpad.net/ubuntustudio-default-settings
+Vcs-Browser: https://git.launchpad.net/ubuntustudio-default-settings/tree/
+Vcs-Git: https://git.launchpad.net/ubuntustudio-default-settings
+Directory: pool/universe/u/ubuntustudio-default-settings
+Package-List:
+ ubuntustudio-default-settings deb x11 optional arch=all
+ ubuntustudio-lowlatency-settings deb x11 optional arch=all
+ ubuntustudio-performance-tweaks deb x11 optional arch=all
+Checksums-Sha256:
+ 5f09de2a0c9797e30d68623b587ce181186aebf77a37968330e884c768dae026 1653 ubuntustudio-default-settings_22.04.26.dsc
+ 6592b2bbd9de657835404c48bc4de1933c351c53224c094d881fa3c46df9f356 1283208 ubuntustudio-default-settings_22.04.26.tar.xz
+
+Package: ubuntustudio-icon-theme
+Format: 3.0 (native)
+Binary: ubuntustudio-icon-theme
+Architecture: all
+Version: 22.04.4
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://git.launchpad.net/ubuntustudio-icon-theme
+Vcs-Git: https://git.launchpad.net/ubuntustudio-icon-theme
+Directory: pool/universe/u/ubuntustudio-icon-theme
+Package-List:
+ ubuntustudio-icon-theme deb x11 optional arch=all
+Checksums-Sha256:
+ 733c7b0f7c5ef35782910096f7e58f9d151ee87412665ba2f642de28e02210f7 1331 ubuntustudio-icon-theme_22.04.4.dsc
+ 1bc9262944b7ef00c7a532f5d43825818a8cf77731e82c5b555743da23cfcce4 15524 ubuntustudio-icon-theme_22.04.4.tar.xz
+
+Package: ubuntustudio-installer
+Format: 3.0 (native)
+Binary: ubuntustudio-installer
+Architecture: all
+Version: 0.10
+Priority: optional
+Section: universe/admin
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 11)
+Vcs-Browser: https://git.launchpad.net/ubuntustudio-installer
+Vcs-Git: https://git.launchpad.net/ubuntustudio-installer
+Directory: pool/universe/u/ubuntustudio-installer
+Package-List:
+ ubuntustudio-installer deb admin optional arch=all
+Checksums-Sha256:
+ ab5d0f9cbb96b1caa64245f4e84d3df8b594d0035ad641df3faa6b91d8fe3bcd 1311 ubuntustudio-installer_0.10.dsc
+ cdb017c1275faa3224e73ba0dad4eddcb618f1113d0c454b91677f460534f177 24184 ubuntustudio-installer_0.10.tar.xz
+
+Package: ubuntustudio-menu
+Format: 3.0 (native)
+Binary: ubuntustudio-menu
+Architecture: all
+Version: 0.55
+Priority: optional
+Section: universe/admin
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://launchpad.net/ubuntustudio-menu
+Vcs-Browser: https://git.launchpad.net/ubuntustudio-menu
+Vcs-Git: https://git.launchpad.net/ubuntustudio-menu
+Directory: pool/universe/u/ubuntustudio-menu
+Package-List:
+ ubuntustudio-menu deb admin optional arch=all
+Checksums-Sha256:
+ e4668edf0492790375c960b3ca69f6b36ad9e5385f3a0c9e4d6fbda29d7910a6 1323 ubuntustudio-menu_0.55.dsc
+ bbe4dd861c9f551834eb99d855205f10160f19b1b235918f89b61b4f1c35c79e 80240 ubuntustudio-menu_0.55.tar.xz
+
+Package: ufo2otf
+Format: 3.0 (quilt)
+Binary: ufo2otf
+Architecture: all
+Version: 0.2.2-1.2
+Priority: optional
+Section: universe/misc
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Standards-Version: 3.9.8
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9), dh-python
+Homepage: https://github.com/fonts/ufo2otf
+Vcs-Browser: https://github.com/Rudloff/ufo2otf-debian
+Vcs-Git: https://github.com/Rudloff/ufo2otf-debian.git
+Directory: pool/universe/u/ufo2otf
+Package-List:
+ ufo2otf deb utils optional arch=all
+Checksums-Sha256:
+ 750870ce7bb55e42c13427c7bcc4c59b7e527d1489bfd83dc770a15b93944606 1858 ufo2otf_0.2.2-1.2.dsc
+ 180b4e1bbacb5f94338e87c160bf68a0919956c0e31310ad0195d0e6c25d96ca 26886 ufo2otf_0.2.2.orig.tar.gz
+ 47a7ceb6cca62c95044f8eac4351bd1abb1880c5effb4c051603a9a8e9fd8e1f 4048 ufo2otf_0.2.2-1.2.debian.tar.xz
+
+Package: ukui-desktop-environment
+Format: 3.0 (native)
+Binary: ukui-desktop-environment-core, ukui-desktop-environment, ukui-desktop-environment-extras
+Architecture: all
+Version: 3.0.1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), lsb-release
+Homepage: http://www.ukui.org/
+Vcs-Browser: https://github.com/ukui/ukui-desktop-environment
+Vcs-Git: https://github.com/ukui/ukui-desktop-environment.git
+Directory: pool/universe/u/ukui-desktop-environment
+Package-List:
+ ukui-desktop-environment deb x11 optional arch=all
+ ukui-desktop-environment-core deb x11 optional arch=all
+ ukui-desktop-environment-extras deb x11 optional arch=all
+Checksums-Sha256:
+ 3790900936e762060598bb910375f05859c260a04da57931c651c42cc636fd62 1955 ukui-desktop-environment_3.0.1.dsc
+ 84993261f3b315e1dabc098bec8b41aa88b93a41031f3737e3810a05ca6c8524 3812 ukui-desktop-environment_3.0.1.tar.xz
+
+Package: unicode-cldr-core
+Format: 3.0 (quilt)
+Binary: unicode-cldr-core
+Architecture: all
+Version: 32.0.1-1.1
+Priority: optional
+Section: universe/misc
+Maintainer: Osamu Aoki <osamu@debian.org>
+Standards-Version: 4.1.2
+Build-Depends: debhelper (>= 10)
+Homepage: http://cldr.unicode.org/
+Directory: pool/universe/u/unicode-cldr-core
+Package-List:
+ unicode-cldr-core deb misc optional arch=all
+Checksums-Sha256:
+ 163faf5516648c382191be33c1c93f242fbddeb8001da60fbfd8eccd4750a39d 1795 unicode-cldr-core_32.0.1-1.1.dsc
+ 5c9b7910db6e4680bef2df3263835db9a3df3c37525dd6f74fa0302883572fa4 11013760 unicode-cldr-core_32.0.1.orig.tar.xz
+ 73f31d8898c369d383914b513677f1e6691e3162df86190e142837284bc2836f 4204 unicode-cldr-core_32.0.1-1.1.debian.tar.xz
+
+Package: ubufox
+Format: 3.0 (quilt)
+Binary: xul-ext-ubufox, ubufox
+Architecture: all
+Version: 3.4-0ubuntu1.17.10.1
+Priority: optional
+Section: universe/web
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7), zip
+Homepage: https://launchpad.net/ubufox
+Directory: pool/universe/u/ubufox
+Package-List:
+ ubufox deb web optional arch=all
+ xul-ext-ubufox deb web optional arch=all
+Checksums-Sha256:
+ 0e4cb09c5d963c50b1967fd70ca8db4248829010d054d39110b79a15100deae1 1477 ubufox_3.4-0ubuntu1.17.10.1.dsc
+ 15cea4719fd97b9fa0bd055dc699186466b20cb128bb93c819d6c98e562484a5 39058 ubufox_3.4.orig.tar.gz
+ 8a014a388325ffe5d6483011708b57cada09078e61b56763eb135c537da5a491 12248 ubufox_3.4-0ubuntu1.17.10.1.debian.tar.xz
+
+Package: v4l2loopback
+Format: 3.0 (quilt)
+Binary: v4l2loopback-source, v4l2loopback-dkms, v4l2loopback-utils
+Architecture: all
+Version: 0.12.5-1ubuntu5
+Priority: extra
+Section: universe/graphics
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), licensecheck, help2man, dkms, tar (>= 1.28), bzip2
+Homepage: https://github.com/umlaeute/v4l2loopback
+Vcs-Browser: https://salsa.debian.org/debian/v4l2loopback
+Vcs-Git: https://salsa.debian.org/debian/v4l2loopback.git
+Directory: pool/universe/v/v4l2loopback
+Package-List:
+ v4l2loopback-dkms deb kernel optional arch=all
+ v4l2loopback-source deb kernel optional arch=all
+ v4l2loopback-utils deb graphics optional arch=all
+Checksums-Sha256:
+ ba2bd289cadc0e1f05ee0e428d5a8d16942806ed9195543426ac34c47b483dd8 2212 v4l2loopback_0.12.5-1ubuntu5.dsc
+ e152cd6df6a8add172fb74aca3a9188264823efa5a2317fe960d45880b9406ae 51468 v4l2loopback_0.12.5.orig.tar.gz
+ 34136dd177a035f8584aa76ccdce24e69501d34b1579ffb6f6bbe2602a86f442 16760 v4l2loopback_0.12.5-1ubuntu5.debian.tar.xz
+
+Package: velocity
+Format: 3.0 (quilt)
+Binary: velocity, velocity-doc
+Architecture: all
+Version: 1.7-6
+Priority: optional
+Section: universe/web
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, Brian Thomason <brian.thomason@eucalyptus.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), default-jdk, maven-debian-helper (>= 1.4)
+Build-Depends-Indep: ant, ant-doc, default-jdk-doc, junit, libcommons-collections3-java, libcommons-lang-java, libcommons-logging-java, libcommons-logging-java-doc, libexcalibur-logger-java, libhsqldb-java, libjdom1-java (>= 1.0), libjdom1-java-doc, liblog4j1.2-java, liblog4j1.2-java-doc, libmaven-javadoc-plugin-java, liboro-java, libservlet3.1-java, libwerken.xpath-java
+Homepage: http://velocity.apache.org/
+Vcs-Browser: https://salsa.debian.org/java-team/velocity
+Vcs-Git: https://salsa.debian.org/java-team/velocity.git
+Directory: pool/universe/v/velocity
+Package-List:
+ velocity deb java optional arch=all
+ velocity-doc deb doc optional arch=all
+Checksums-Sha256:
+ aaac45302118aa6804da420dd072afc481bbdfb8ef5f66001a60125d1d5c9106 2439 velocity_1.7-6.dsc
+ 3d680327b600a84aca9e1cade288e068721d6291fcc9de57e2a1daf60183d43c 732413 velocity_1.7.orig.tar.gz
+ 7fd49066a8cacad395204808315ee8bf658f470fa38e640436672f5a44901f40 9580 velocity_1.7-6.debian.tar.xz
+
+Package: vorbis-tools
+Format: 3.0 (quilt)
+Binary: vorbis-tools
+Architecture: any
+Version: 1.4.2-1
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Petter Reinholdtsen <pere@debian.org> , Martin Steghöfer <martin@steghoefer.eu> , Ralph Giles <giles@thaumas.net> , Dennis Braun <d_braun@kabelmail.de>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), libcurl4-gnutls-dev | libcurl4-openssl-dev, libao-dev (>= 1.0.0), libogg-dev, libflac-dev (>> 1.1.4) | liboggflac-dev, libspeex-dev, libvorbis-dev (>= 1.3.0), libkate-dev, pkg-config
+Testsuite: autopkgtest
+Testsuite-Triggers: valgrind
+Homepage: https://www.xiph.org/
+Vcs-Browser: https://salsa.debian.org/multimedia-team/vorbis-tools
+Vcs-Git: https://salsa.debian.org/multimedia-team/vorbis-tools.git
+Directory: pool/universe/v/vorbis-tools
+Package-List:
+ vorbis-tools deb sound optional arch=any
+Checksums-Sha256:
+ 3b9653f7d661360e17aa0e0ffafffea47c5c8e9a9f56bc6f90af0de213f4d469 2311 vorbis-tools_1.4.2-1.dsc
+ db7774ec2bf2c939b139452183669be84fda5774d6400fc57fde37f77624f0b0 1389947 vorbis-tools_1.4.2.orig.tar.gz
+ 145ff149fa5329b9958759908d0f033229b77bddf32753c79eacc828bcca61bc 39336 vorbis-tools_1.4.2-1.debian.tar.xz
+
+Package: xaw3d
+Format: 3.0 (quilt)
+Binary: xaw3dg, xaw3dg-dev
+Architecture: any
+Version: 1.5+F-1build1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), xutils-dev (>= 1:1.0.2-3), libx11-dev, libxmu-dev, libxpm-dev, libxt-dev, x11proto-core-dev, x11proto-xext-dev, bison, flex (>= 2.5.31-16)
+Vcs-Browser: https://salsa.debian.org/debian/xaw3dg
+Vcs-Git: https://salsa.debian.org/debian/xaw3dg.git
+Directory: pool/universe/x/xaw3d
+Package-List:
+ xaw3dg deb x11 optional arch=any
+ xaw3dg-dev deb devel optional arch=any
+Checksums-Sha256:
+ e4215b1a56813c0c3b79a816b3a214c27d45ab3b79f1422103a0bbe2306f35ad 2057 xaw3d_1.5+F-1build1.dsc
+ 9d731ce59d64ff1319412c0ce37acdcefc29eb9a12bece607407a44a0c3a9a7f 320013 xaw3d_1.5+F.orig.tar.gz
+ fcd93e229d3db1fefcb8f737d7633dfc5f3b73f5de6a2676fa1efb1ac7e72dcd 16144 xaw3d_1.5+F-1build1.debian.tar.xz
+
+Package: xdiagnose
+Format: 1.0
+Binary: xdiagnose
+Architecture: all
+Version: 3.8.10
+Priority: optional
+Section: universe/python
+Maintainer: Bryce Harrington <bryce@ubuntu.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9.20160709), dh-python, dh-translations, python3 (>= 3.2), python3-all, python3-gi, intltool, apport, python3-distutils-extra (>= 2.32-2)
+Homepage: http://wiki.ubuntu.com/X
+Directory: pool/universe/x/xdiagnose
+Package-List:
+ xdiagnose deb python extra arch=all
+Checksums-Sha256:
+ c211185cdbf095c9fc0eefcec2b2e2461c26938aa34cd402d0d50ca5362e7def 1604 xdiagnose_3.8.10.dsc
+ f6495a312f8d0ec435a4015b42086b0c45b8cd632948cada5485f3215fd8349f 106062 xdiagnose_3.8.10.tar.gz
+
+Package: xdot
+Format: 3.0 (quilt)
+Binary: xdot
+Architecture: all
+Version: 1.2-2
+Priority: optional
+Section: universe/python
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-python, python3, python3-setuptools
+Homepage: https://github.com/jrfonseca/xdot.py
+Vcs-Browser: https://salsa.debian.org/python-team/packages/xdot
+Vcs-Git: https://salsa.debian.org/python-team/packages/xdot.git
+Directory: pool/universe/x/xdot
+Package-List:
+ xdot deb python optional arch=all
+Checksums-Sha256:
+ fafaefd53f5ea1147d8b426a7f6901bdecc0b42cfe1f2f3eb1e30fc7b05b647d 1302 xdot_1.2-2.dsc
+ 3df91e6c671869bd2a6b2a8883fa3476dbe2ba763bd2a7646cf848a9eba71b70 29643 xdot_1.2.orig.tar.gz
+ 14709845a9169f50d44af175780cfb6865e7237b518abcebca619ef499bf5fbe 4892 xdot_1.2-2.debian.tar.xz
+
+Package: xfce4
+Format: 3.0 (native)
+Binary: xfce4
+Architecture: all
+Version: 4.16
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 12)
+Homepage: https://www.xfce.org/
+Vcs-Browser: https://salsa.debian.org/xfce-team/desktop/xfce4
+Vcs-Git: https://salsa.debian.org/xfce-team/desktop/xfce4.git
+Directory: pool/universe/x/xfce4
+Package-List:
+ xfce4 deb metapackages optional arch=all
+Checksums-Sha256:
+ ba333f5351f2b82460b54fbe92d00fcef3d3fea4cbc2161d2f4adcea8478456c 1263 xfce4_4.16.dsc
+ 7b7b15671cdf4de65d25b98a7f2f585145035b556e34d0f162ed4634f5faff1a 6888 xfce4_4.16.tar.xz
+
+Package: xfce4-dev-tools
+Format: 3.0 (quilt)
+Binary: xfce4-dev-tools
+Architecture: any
+Version: 4.16.0-1
+Priority: optional
+Section: universe/devel
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), libglib2.0-dev
+Homepage: https://docs.xfce.org/xfce/xfce4-dev-tools/start
+Vcs-Browser: https://salsa.debian.org/xfce-team/desktop/xfce4-dev-tools
+Vcs-Git: https://salsa.debian.org/xfce-team/desktop/xfce4-dev-tools.git
+Directory: pool/universe/x/xfce4-dev-tools
+Package-List:
+ xfce4-dev-tools deb xfce optional arch=any
+Checksums-Sha256:
+ 0b0f0875cb7280d8f2d6b640903cbf20a4cbfa939f9d4736ded56005833379cb 2030 xfce4-dev-tools_4.16.0-1.dsc
+ f50b3070e66f3ebdf331744dd1ec5e1af5de333965d491e15ce05545e8eb4f04 340107 xfce4-dev-tools_4.16.0.orig.tar.bz2
+ 38159de4f31622dcf70652317b865e7588f01bde50e8912e6e849acb57f2015a 4448 xfce4-dev-tools_4.16.0-1.debian.tar.xz
+
+Package: xfce4-panel-profiles
+Format: 3.0 (quilt)
+Binary: xfce4-panel-profiles, xfpanel-switch
+Architecture: all
+Version: 1.0.13-0ubuntu2
+Priority: optional
+Section: universe/xfce
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-distutils-extra (>= 2.18)
+Homepage: https://git.xfce.org/apps/xfce4-panel-profiles/about/
+Directory: pool/universe/x/xfce4-panel-profiles
+Package-List:
+ xfce4-panel-profiles deb xfce optional arch=all
+ xfpanel-switch deb oldlibs optional arch=all
+Checksums-Sha256:
+ 89c01a007966643bb8486469b30db3ceb79ce4be1625be99b48076769a4a5766 1697 xfce4-panel-profiles_1.0.13-0ubuntu2.dsc
+ bc387c13f94109422dc72b0fcb919b0dc11619ba589d03e492252b0d2513b170 86671 xfce4-panel-profiles_1.0.13.orig.tar.bz2
+ 81449287176531130c7d2f6b99ec66362c388a77dab2d0bbf12cc581575a3e57 2540 xfce4-panel-profiles_1.0.13-0ubuntu2.debian.tar.xz
+
+Package: xfonts-efont-unicode
+Format: 3.0 (quilt)
+Binary: xfonts-efont-unicode, xfonts-efont-unicode-ib
+Architecture: all
+Version: 0.4.2-12
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13), libarray-base-perl
+Build-Depends-Indep: bdfresize (>= 1.4), xfonts-utils, gawk
+Homepage: http://openlab.ring.gr.jp/efont/unicode/
+Vcs-Browser: https://salsa.debian.org/fonts-team/xfonts-efont-unicode
+Vcs-Git: https://salsa.debian.org/fonts-team/xfonts-efont-unicode.git
+Directory: pool/universe/x/xfonts-efont-unicode
+Package-List:
+ xfonts-efont-unicode deb fonts optional arch=all
+ xfonts-efont-unicode-ib deb fonts optional arch=all
+Checksums-Sha256:
+ 34140deaf2bc1a36feadab05e953d497c9e6380c2fbff8f0398eca0d676e5c2c 2214 xfonts-efont-unicode_0.4.2-12.dsc
+ 7cd38f40f70fb6c6ce7cab46ef00231c2352b1555e31f5c54f5f5683f38baaa2 3582585 xfonts-efont-unicode_0.4.2.orig.tar.bz2
+ 1ab855ae1d800651fe202acc3777910b6a5207e852cc4d9fc25694dd7a076cd6 5768 xfonts-efont-unicode_0.4.2-12.debian.tar.xz
+
+Package: xfwm4
+Format: 3.0 (quilt)
+Binary: xfwm4
+Architecture: any
+Version: 4.16.1-1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 12), intltool, libdrm-dev [!hurd-any], libepoxy-dev, libgtk-3-dev, libstartup-notification0-dev, libwnck-3-dev, libxcomposite-dev, libxdamage-dev, libxfce4ui-2-dev (>= 4.12.0), libxfce4util-dev (>= 4.10.0), libxfconf-0-dev (>= 4.13.0), libxfixes-dev, libxft-dev, libxpresent-dev, libxrender-dev, libxres-dev, x11proto-present-dev, xfce4-dev-tools (>= 4.16)
+Homepage: https://docs.xfce.org/xfce/xfwm4/start
+Vcs-Browser: https://salsa.debian.org/xfce-team/desktop/xfwm4
+Vcs-Git: https://salsa.debian.org/xfce-team/desktop/xfwm4.git
+Directory: pool/universe/x/xfwm4
+Package-List:
+ xfwm4 deb xfce optional arch=any
+Checksums-Sha256:
+ 4ac53fda573f6a3f1a728caf528d812354e462458dc37782a7709224e211685a 1908 xfwm4_4.16.1-1.dsc
+ b5b24ca04bd73c642db0a4b4df81d262381d758f01b51108257d48b391b8718c 1201722 xfwm4_4.16.1.orig.tar.bz2
+ d8216322a16bb36bfedbbb05602e454548079b70b47364fdb02e45dde920196d 10384 xfwm4_4.16.1-1.debian.tar.xz
+
+Package: xmldiff
+Format: 3.0 (quilt)
+Binary: xmldiff
+Architecture: all
+Version: 2.4-2
+Priority: optional
+Section: universe/python
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-lxml, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-argparse
+Testsuite: autopkgtest
+Homepage: https://github.com/Shoobx/xmldiff
+Vcs-Browser: https://salsa.debian.org/debian/xmldiff
+Vcs-Git: https://salsa.debian.org/debian/xmldiff.git
+Directory: pool/universe/x/xmldiff
+Package-List:
+ xmldiff deb misc optional arch=all
+Checksums-Sha256:
+ 22f2eb20ab67f8b30834815efcfc90246dc41f5b0a8d5a2b3e525e2e44a81496 1930 xmldiff_2.4-2.dsc
+ 3391b2fec2583352e522eda39b8e1a999e364fa6f6e25f3baf52e3e3aa5e9015 93437 xmldiff_2.4.orig.tar.gz
+ 88dd913b5587cd14b220528eac3b25e0793b62ea6bd59a6fa4aa5f5cc9370692 8276 xmldiff_2.4-2.debian.tar.xz
+
+Package: xmlstarlet
+Format: 3.0 (quilt)
+Binary: xmlstarlet
+Architecture: any
+Version: 1.6.1-2.1
+Priority: optional
+Section: universe/text
+Maintainer: Mònica Ramírez Arceda <monica@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13), automake (>= 1.11), docbook-xsl-ns, fop, gawk, ghostscript, libxml2-dev, libxslt1-dev (>= 1.1.9), pkg-config, xsltproc
+Homepage: http://xmlstar.sourceforge.net/
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xmlstarlet.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/xmlstarlet.git
+Directory: pool/universe/x/xmlstarlet
+Package-List:
+ xmlstarlet deb text optional arch=any
+Checksums-Sha256:
+ 3e46d71a736bf71f3c889250c939a4595821dffadde9d06f3faf7be5c4cf14f6 2010 xmlstarlet_1.6.1-2.1.dsc
+ 15d838c4f3375332fd95554619179b69e4ec91418a3a5296e7c631b7ed19e7ca 420923 xmlstarlet_1.6.1.orig.tar.gz
+ 0f76a616c9c46fdf8c3788201646a50a04fbcdbc3d57c49d2d36d59edcb521bd 11988 xmlstarlet_1.6.1-2.1.debian.tar.xz
+
+Package: xmlto
+Format: 3.0 (quilt)
+Binary: xmlto
+Architecture: any
+Version: 0.0.28-2.1
+Priority: optional
+Section: universe/text
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10), docbook-xml (>= 4.2-8), docbook-xsl (>= 1.64.1.0), libxml2-utils, sgml-base, xsltproc (>= 1.0.29)
+Homepage: https://fedorahosted.org/xmlto/
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/xmlto.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/xmlto.git
+Directory: pool/universe/x/xmlto
+Package-List:
+ xmlto deb text optional arch=any
+Checksums-Sha256:
+ 64d59e65d1a5981f18ae0ba5520110151ab513dd5faf4e6bb241b54581cc5387 1962 xmlto_0.0.28-2.1.dsc
+ 1130df3a7957eb9f6f0d29e4aa1c75732a7dfb6d639be013859b5c7ec5421276 127921 xmlto_0.0.28.orig.tar.bz2
+ c5be6605db4f2f8163d329511cedbe8241c0121a1f019ae0caff93b0e0d0a9c1 8704 xmlto_0.0.28-2.1.debian.tar.xz
+
+Package: xmltoman
+Format: 3.0 (quilt)
+Binary: xmltoman
+Architecture: all
+Version: 0.6-1
+Priority: optional
+Section: universe/devel
+Maintainer: Adam Bilbrough <ats@atlas.cz>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10), libxml-parser-perl
+Homepage: https://github.com/atsb/xmltoman
+Directory: pool/universe/x/xmltoman
+Package-List:
+ xmltoman deb devel optional arch=all
+Checksums-Sha256:
+ 9c26f54daa67c732dfb276f900b54ee450df7d1487d0ed1bdd3270fe024c2c3d 1726 xmltoman_0.6-1.dsc
+ 55f64a8e61f9b62c250123fb02b7de2934a74fce201b20f0b96a14d8ce126d91 15594 xmltoman_0.6.orig.tar.gz
+ dc0a1fbc0e35facbc380a2b9e0f3e1ef9de413dbbabe7c48d4b0d72fbc40210f 2532 xmltoman_0.6-1.debian.tar.xz
+
+Package: xterm
+Format: 3.0 (quilt)
+Binary: xterm
+Architecture: any
+Version: 372-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sven Joachim <svenjoac@gmx.de>
+Standards-Version: 4.6.0
+Build-Depends: libncurses-dev, libxft-dev (>> 2.1.2), libxrender-dev (>> 1:0.9.0), libxaw7-dev, libxkbfile-dev, libutempter-dev, libxcursor-dev, libxinerama-dev, debhelper-compat (= 13), debhelper (>= 13.1~), autoconf-dickey (>= 2.52+20210105), groff, bsdextrautils | bsdmainutils (<< 12.1.1~), lynx, xorg-docs-core, desktop-file-utils
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Homepage: https://invisible-island.net/xterm/xterm.html
+Vcs-Browser: https://salsa.debian.org/xorg-team/app/xterm
+Vcs-Git: https://salsa.debian.org/xorg-team/app/xterm.git
+Directory: pool/universe/x/xterm
+Package-List:
+ xterm deb x11 optional arch=any
+Checksums-Sha256:
+ b1956aafed2da4abd0a24d8cc894080050daa13174fbc230e08da2e76de485bb 2477 xterm_372-1ubuntu1.dsc
+ c6d08127cb2409c3a04bcae559b7025196ed770bb7bf26630abcb45d95f60ab1 1507107 xterm_372.orig.tar.gz
+ 80e7781b0f5084541b7b3537a877a088f22876b9a5991294ccd5aa3180bef2ef 729 xterm_372.orig.tar.gz.asc
+ 17efd9c108dd2eaca0f5ee897c449dafc4f5f28ae864f8ebe4c93258c5158455 117424 xterm_372-1ubuntu1.debian.tar.xz
+
+Package: xubuntu-community-artwork
+Format: 3.0 (native)
+Binary: xubuntu-community-wallpapers, xubuntu-community-wallpapers-trusty, xubuntu-community-wallpapers-xenial, xubuntu-community-wallpapers-bionic, xubuntu-community-wallpapers-focal, xubuntu-community-wallpapers-jammy
+Architecture: all
+Version: 22.04.0
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Standards-Version: 4.6.0.1
+Build-Depends: debhelper-compat (= 13)
+Directory: pool/universe/x/xubuntu-community-artwork
+Package-List:
+ xubuntu-community-wallpapers deb x11 optional arch=all
+ xubuntu-community-wallpapers-bionic deb x11 optional arch=all
+ xubuntu-community-wallpapers-focal deb x11 optional arch=all
+ xubuntu-community-wallpapers-jammy deb x11 optional arch=all
+ xubuntu-community-wallpapers-trusty deb x11 optional arch=all
+ xubuntu-community-wallpapers-xenial deb x11 optional arch=all
+Checksums-Sha256:
+ 27d4fa94440e4a7681ce13aa9caf4d6cd96c612b6dd8dfe9af8d8e3f4977719e 1893 xubuntu-community-artwork_22.04.0.dsc
+ b5d2ebb327625f2b7461bae7c29ceb438620e381305eb2b9531ef61e094773c2 93667372 xubuntu-community-artwork_22.04.0.tar.xz
+
+Package: xubuntu-default-settings
+Format: 3.0 (native)
+Binary: xubuntu-default-settings, xubuntu-live-settings
+Architecture: all
+Version: 22.04.0
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), dh-python, intltool, python3
+Homepage: https://launchpad.net/xubuntu-default-settings
+Vcs-Browser: https://git.launchpad.net/xubuntu-default-settings/
+Vcs-Git: https://git.launchpad.net/xubuntu-default-settings.git
+Directory: pool/universe/x/xubuntu-default-settings
+Package-List:
+ xubuntu-default-settings deb x11 optional arch=all
+ xubuntu-live-settings deb x11 optional arch=all
+Checksums-Sha256:
+ a691d77af4e3b5bec6f8cab9cb5c0ccf197ac703454389a2033bb09aa0eb0c74 1662 xubuntu-default-settings_22.04.0.dsc
+ a38ae2519fc528724fb5ea2828b98717b6385bd5e2a621c9443f0f16c1bcf52c 86976 xubuntu-default-settings_22.04.0.tar.xz
+
+Package: xubuntu-docs
+Format: 3.0 (native)
+Binary: xubuntu-docs
+Architecture: all
+Version: 22.04
+Priority: optional
+Section: universe/text
+Maintainer: Xubuntu Documentation Team <xubuntu-devel@lists.ubuntu.com>
+Standards-Version: 4.6.0.1
+Build-Depends: debhelper-compat (= 13), default-jre, docbook-xml, docbook-xsl, fonts-dejavu-core, fonts-noto, fop, itstool, libxml2-utils, xsltproc
+Homepage: https://docs.xubuntu.org/current/
+Vcs-Browser: https://github.com/Xubuntu/xubuntu-docs
+Vcs-Git: https://github.com/Xubuntu/xubuntu-docs.git
+Directory: pool/universe/x/xubuntu-docs
+Package-List:
+ xubuntu-docs deb doc optional arch=all
+Checksums-Sha256:
+ b64454e782bfa07466e0bbb0074226a7aace25b5c48bf013c6945bb32578cada 1569 xubuntu-docs_22.04.dsc
+ 42b39bc8588d039284221f86958b86753c7351bf821a51478ec9798bd24fda87 3766012 xubuntu-docs_22.04.tar.xz
+
+Package: xutils-dev
+Format: 1.0
+Binary: xutils-dev
+Architecture: any
+Version: 1:7.7+6ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Standards-Version: 3.9.6
+Build-Depends: dpkg-dev (>= 1.16.1), debhelper (>= 9), autotools-dev, pkg-config, quilt, x11proto-dev, autoconf
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/app/xutils-dev.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/app/xutils-dev.git
+Directory: pool/universe/x/xutils-dev
+Package-List:
+ xutils-dev deb x11 optional arch=any
+Checksums-Sha256:
+ 7f1cce8696a67e77de0b74a946c733ccbb6a0d3edba9741157ae069ae13a7709 1425 xutils-dev_7.7+6ubuntu1.dsc
+ 7aa0e59173411f36782700c66b2d3d9d4f915c0a8d3903600a52585d21bfc64d 2767982 xutils-dev_7.7+6ubuntu1.tar.gz
+
+Package: yard
+Format: 3.0 (quilt)
+Binary: yard, yard-doc
+Architecture: all
+Version: 0.9.26-1
+Priority: optional
+Section: universe/ruby
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>, Cédric Boutillier <boutil@debian.org>, Paul van Tilburg <paulvt@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: bundler, debhelper-compat (= 12), gem2deb (>= 1.6~), libjs-jquery, rake, ruby-asciidoctor, ruby-gettext (>= 2.2.1~), ruby-rack, ruby-redcarpet, ruby-redcloth, ruby-rspec, ruby-webrick (>= 1.7~)
+Testsuite: autopkgtest-pkg-ruby
+Homepage: https://yardoc.org
+Vcs-Browser: https://salsa.debian.org/ruby-team/yard
+Vcs-Git: https://salsa.debian.org/ruby-team/yard.git
+Directory: pool/universe/y/yard
+Package-List:
+ yard deb ruby optional arch=all
+ yard-doc deb doc optional arch=all
+Checksums-Sha256:
+ fa02b15f8e05100644baef5bb89964d38ca64ed917ea55856a8f4b2419c1f3b7 1599 yard_0.9.26-1.dsc
+ 9a19bd02c32a67909275e416ad0da192239d75d8171a65b481f747c6bd2b0375 930901 yard_0.9.26.orig.tar.gz
+ c57c21c683fc1e709d3c48a1376e2ff1b8d5cd78eb05f558d8a4ac8009b176dc 81120 yard_0.9.26-1.debian.tar.xz
+Ruby-Versions: all
+
+Package: yasm
+Format: 3.0 (quilt)
+Binary: yasm
+Architecture: any
+Version: 1.3.0-2.1
+Priority: optional
+Section: universe/devel
+Maintainer: Sam Hocevar <sho@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9.0), dh-autoreconf, bison, gettext, xmlto, python2
+Homepage: http://www.tortall.net/projects/yasm/
+Vcs-Browser: http://svn.debian.org/wsvn/sam-hocevar/pkg-misc/unstable/yasm/
+Vcs-Svn: svn://svn.debian.org/sam-hocevar/pkg-misc/unstable/yasm
+Directory: pool/universe/y/yasm
+Package-List:
+ yasm deb devel optional arch=any
+Checksums-Sha256:
+ 35f87f5d8f8f123643a244d76006b6f772af72c5148ab87ec4e189aec9b37373 1895 yasm_1.3.0-2.1.dsc
+ 3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f 1492156 yasm_1.3.0.orig.tar.gz
+ 473e9f318bd274dee92db4ee3247f7e64cd709a569ce1825fdf935cd01490409 8256 yasm_1.3.0-2.1.debian.tar.xz
+
+Package: yelp-tools
+Format: 3.0 (quilt)
+Binary: yelp-tools
+Architecture: all
+Version: 42.0-1
+Priority: optional
+Section: universe/gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, python3, python3-lxml, pkg-config, libxml2-utils (>= 2.6.12), xsltproc (>= 1.1.8), yelp-xsl (>= 3.38), itstool, meson (>= 0.51)
+Homepage: https://wiki.gnome.org/Apps/Yelp/Tools
+Vcs-Browser: https://salsa.debian.org/gnome-team/yelp-tools
+Vcs-Git: https://salsa.debian.org/gnome-team/yelp-tools.git
+Directory: pool/universe/y/yelp-tools
+Package-List:
+ yelp-tools deb gnome optional arch=all
+Checksums-Sha256:
+ 1dc5bf77a9c20518f36d8a6e604c1882c0569b102b2077a59eea73372bf68e86 2203 yelp-tools_42.0-1.dsc
+ 2cd43063ffa7262df15dd8d379aa3ea3999d42661f07563f4802daa1149f7df4 38788 yelp-tools_42.0.orig.tar.xz
+ 4bfd8849d8e31ebe74e0a17335afcc903cec34fd07e265f908dce77b8187be73 4088 yelp-tools_42.0-1.debian.tar.xz
+
+Package: yui-compressor
+Format: 3.0 (quilt)
+Binary: yui-compressor
+Architecture: all
+Version: 2.4.8-2.1
+Priority: optional
+Section: universe/java
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Dominik Smatana <dominik.smatana@gmail.com>, Michael Gilbert <michael.s.gilbert@gmail.com>, tony mancill <tmancill@debian.org>
+Standards-Version: 4.1.3
+Build-Depends: ant, debhelper (>= 11), default-jdk
+Build-Depends-Indep: libjargs-java, librhino-java
+Homepage: http://yuilibrary.com/projects/yuicompressor/
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/yui-compressor.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/yui-compressor.git
+Directory: pool/universe/y/yui-compressor
+Package-List:
+ yui-compressor deb java optional arch=all
+Checksums-Sha256:
+ 341765e5083aa6bf40d8e08d3b3091839f71d5d2ee6d27feb9b68b16b8828d79 2164 yui-compressor_2.4.8-2.1.dsc
+ 63e5a862b5d193f34c26da0a208d019d6e489171fffa8ac5f5bc402b96c13621 554208 yui-compressor_2.4.8.orig.tar.xz
+ b41993ffd8b92fb6c2224582621341a9b244c35de6880fe93412c2e47d8f8a8d 8752 yui-compressor_2.4.8-2.1.debian.tar.xz
+
+Package: zram-config
+Format: 3.0 (native)
+Binary: zram-config
+Architecture: all
+Version: 0.7build1
+Priority: extra
+Section: universe/utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 11)
+Directory: pool/universe/z/zram-config
+Package-List:
+ zram-config deb utils optional arch=all
+Checksums-Sha256:
+ 126a671771ebde8d838e95de7f329714a7845c428b8b5882114fbee26f9ced26 1455 zram-config_0.7build1.dsc
+ 9875335b2e8933b6483131af204d7940fb656710ab53c12340e7f5b9f303ad24 3020 zram-config_0.7build1.tar.xz
+
+Package: zynaddsubfx
+Format: 3.0 (quilt)
+Binary: zynaddsubfx, zynaddsubfx-data, zynaddsubfx-dssi, zynaddsubfx-lv2, zynaddsubfx-vst
+Architecture: any all
+Version: 3.0.5-2build1
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Jaromír Mikeš <mira.mikes@seznam.cz>
+Standards-Version: 4.4.0
+Build-Depends: bash-completion, cmake (>= 2.4), cxxtest <!nocheck>, debhelper-compat (= 12), fluid (>= 1.3.0), libasound2-dev (>= 0.9.4) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libfftw3-dev, libfltk1.3-dev, libjack-dev, liblo-dev (>= 0.26~repack), dssi-dev (>= 0.9.0), libmxml-dev (>= 2.0), zlib1g-dev, libxpm-dev, libgl1-mesa-dev, asciidoctor, xmlto, lv2-dev, pkg-config
+Homepage: https://zynaddsubfx.sourceforge.io
+Vcs-Browser: https://salsa.debian.org/multimedia-team/zynaddsubfx
+Vcs-Git: https://salsa.debian.org/multimedia-team/zynaddsubfx.git
+Directory: pool/universe/z/zynaddsubfx
+Package-List:
+ zynaddsubfx deb sound optional arch=any
+ zynaddsubfx-data deb sound optional arch=all
+ zynaddsubfx-dssi deb sound optional arch=any
+ zynaddsubfx-lv2 deb sound optional arch=any
+ zynaddsubfx-vst deb sound optional arch=any
+Checksums-Sha256:
+ 4c75c7ac91f99e65e15e0f2e85a9a61594d798435acc986ec3caca5158e3c3c9 2606 zynaddsubfx_3.0.5-2build1.dsc
+ 7447322268114a1e0ac5f281ac37a09a78e761a7be61999caf79100049789f63 8141703 zynaddsubfx_3.0.5.orig.tar.bz2
+ 42dcee49694e6923bf885120fdad582cde1b9602ebca789f64c92078ac5007de 9296 zynaddsubfx_3.0.5-2build1.debian.tar.xz
+
